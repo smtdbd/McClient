@@ -1,0 +1,18 @@
+{
+  "id": "美杜莎_-2949,66,-1637",
+  "name": "美杜莎",
+  "icon": "waypoint-normal.png",
+  "x": -2949,
+  "y": 66,
+  "z": -1637,
+  "r": 73,
+  "g": 186,
+  "b": 57,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

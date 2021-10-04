@@ -1,0 +1,18 @@
+{
+  "id": "lieyan guai shua guai long_752,70,-2920",
+  "name": "lieyan guai shua guai long",
+  "icon": "waypoint-normal.png",
+  "x": 752,
+  "y": 70,
+  "z": -2920,
+  "r": 88,
+  "g": 77,
+  "b": 248,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

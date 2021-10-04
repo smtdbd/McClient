@@ -1,0 +1,18 @@
+{
+  "id": "惊悚遗迹_-2703,79,-1225",
+  "name": "惊悚遗迹",
+  "icon": "waypoint-normal.png",
+  "x": -2703,
+  "y": 79,
+  "z": -1225,
+  "r": 206,
+  "g": 28,
+  "b": 231,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

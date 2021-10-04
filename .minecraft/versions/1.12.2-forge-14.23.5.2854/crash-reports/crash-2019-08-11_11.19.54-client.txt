@@ -1,0 +1,176 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  UltimateStackPatchingLoader (UltimateStack-1.12.2-1.3.1.jar)
+  PPPatchingLoader (PPCore-1.12.2-1.3.0.jar)
+  wings (wings-1.1.4-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// There are four lights!
+
+Time: 8/11/19 11:19 AM
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu.getURLContents(IceAndFireMainMenu.java:307)
+	at com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu.<init>(IceAndFireMainMenu.java:61)
+	at com.github.alexthe666.iceandfire.event.EventClient.onGuiOpened(EventClient.java:465)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_467_EventClient_onGuiOpened_GuiOpenEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:984)
+	at net.minecraft.client.gui.GuiIngameMenu.func_146284_a(GuiIngameMenu.java:56)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:443)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:533)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1759)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu.getURLContents(IceAndFireMainMenu.java:307)
+	at com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu.<init>(IceAndFireMainMenu.java:61)
+	at com.github.alexthe666.iceandfire.event.EventClient.onGuiOpened(EventClient.java:465)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_467_EventClient_onGuiOpened_GuiOpenEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:984)
+	at net.minecraft.client.gui.GuiIngameMenu.func_146284_a(GuiIngameMenu.java:56)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:443)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:533)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiIngameMenu
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1759)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1142420648 bytes (1089 MB) / 2147483648 bytes (2048 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx2048m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2838 Optifine OptiFine_1.12.2_HD_U_E3 34 mods loaded, 32 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                    | Version           | Source                                      | Signature                                |
+	|:------ |:--------------------- |:----------------- |:------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft             | 1.12.2            | minecraft.jar                               | None                                     |
+	| LCHIJA | mcp                   | 9.42              | minecraft.jar                               | None                                     |
+	| LCHIJA | FML                   | 8.0.99.99         | forge-1.12.2-14.23.5.2838.jar               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                 | 14.23.5.2838      | forge-1.12.2-14.23.5.2838.jar               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | PPDummy               | 1.0.0             | minecraft.jar                               | None                                     |
+	| LCHIJA | aether_legacy         | 1.12.2-v1.4.3     | aether_legacy1.12.2-v1.4.3.jar              | None                                     |
+	| LCHIJA | controlling           | 3.0.7             | Controlling-3.0.7.jar                       | None                                     |
+	| LCHIJA | llibrary              | 1.7.18            | LLibrary-1.12.2.jar                         | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCHIJA | iceandfire            | 1.8.0             | iceandfire-1.8.0.jar                        | None                                     |
+	| LCHIJA | infernalmobs          | 1.7.5             | InfernalMobs-1.12.2.jar                     | None                                     |
+	| LCHIJA | infinity              | 0.13              | Infinity-0.13.jar                           | None                                     |
+	| LCHIJA | ironchest             | 1.12-7.0.31.818   | ironchest-1.12-7.0.31.818.jar               | None                                     |
+	| LCHIJA | jei                   | 4.15.0.268        | jei_1.12.2-4.15.0.268.jar                   | None                                     |
+	| LCHIJA | journeymap            | 1.12-5.4.9        | journeymap-1.12-5.4.9.jar                   | None                                     |
+	| LCHIJA | kathairis             | 1.12.2-1.6.0-beta | Kathairis-1.12.2-1.6.0-beta.jar             | None                                     |
+	| LCHIJA | levelup2              | ${version}        | Level+Up%21+2-1.1.5-1.12.jar                | None                                     |
+	| LCHIJA | lostcities            | 2.0.20            | lostcities-1.12-2.0.20.jar                  | None                                     |
+	| LCHIJA | mantle                | 1.12-1.3.3.55     | Mantle-1.12-1.3.3.55.jar                    | None                                     |
+	| LCHIJA | nbtedit               | 1.11.2-2.0.2      | NBTEdit-1.12-2.0.2.jar                      | None                                     |
+	| LCHIJA | ppcore                | 1.3.0             | PPCore-1.12.2-1.3.0.jar                     | None                                     |
+	| LCHIJA | quickstore            | 1.0               | quickstore-1.2.jar                          | None                                     |
+	| LCHIJA | flammpfeil.slashblade | mc1.12-r25        | SlashBlade-mc1.12-r25.jar                   | None                                     |
+	| LCHIJA | tamedrespawn          | 1.12.2-1.0.1      | TamedRespawn-1.12.2-1.0.1.jar               | 1bc8f8dbe770187a854cef35dad0ff40ba441bbe |
+	| LCHIJA | twilightforest        | 3.9.851           | twilightforest-1.12.2-3.9.851-universal.jar | None                                     |
+	| LCHIJA | tconstruct            | 1.12.2-2.12.0.157 | TConstruct-1.12.2-2.12.0.157.jar            | None                                     |
+	| LCHIJA | theeightfabledblades  | 1.0.0             | TheEightFabledBlades%2BV1.0.0.jar           | None                                     |
+	| LCHIJA | lastsmith             | V1.2.6.4-MC1.12.2 | TLS-V1.2.6.4-MC1.12.2.jar                   | None                                     |
+	| LCHIJA | torohealthmod         | 1.12.2-11         | torohealth-1.12.2-11.jar                    | None                                     |
+	| LCHIJA | ultimatestack         | 1.3.1             | UltimateStack-1.12.2-1.3.1.jar              | None                                     |
+	| LCHIJA | waystones             | 4.0.67            | Waystones_1.12.2-4.0.67.jar                 | None                                     |
+	| LCHIJA | weaponlevels          | 2.4.0             | weaponlevels-2.4.0.jar                      | None                                     |
+	| LCHIJA | wings                 | 1.1.4             | wings-1.1.4-1.12.2.jar                      | None                                     |
+	| UD     | bauble_wings          | 1.0.0             | wings-1.1.4-1.12.2.jar                      | None                                     |
+	| UD     | mobends_wings         | 1.0.0             | wings-1.1.4-1.12.2.jar                      | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+UltimateStackPatchingLoader (UltimateStack-1.12.2-1.3.1.jar)
+  com.porpit.ultimatestack.transform.UltimateStackTransformer
+PPPatchingLoader (PPCore-1.12.2-1.3.0.jar)
+  
+wings (wings-1.1.4-1.12.2.jar)
+  me.paulf.wings.server.asm.WingsRuntimePatcher
+  me.paulf.wings.server.asm.mobends.WingsMoBendsRuntimePatcher
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 416.34' Renderer: 'GeForce GTX 1070/PCIe/SSE2'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+
+	Launched Version: HMCL 3.2.112
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1070/PCIe/SSE2 GL version 4.6.0 NVIDIA 416.34, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: 12x Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_E3
+	OptiFine Build: 20181210-121000
+	Render Distance Chunks: 12
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: BSL Standard v7.0p1.zip
+	OpenGlVersion: 4.6.0 NVIDIA 416.34
+	OpenGlRenderer: GeForce GTX 1070/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12

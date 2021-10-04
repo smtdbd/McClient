@@ -1,0 +1,140 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  iceandfire (iceandfire-1.9.1-1.12.2 (1).jar)
+Contact their authors BEFORE contacting forge
+
+// You should try our sister game, Minceraft!
+
+Time: 8/17/20 4:50 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from ProjectE (projecte)
+Caused by: java.lang.NoSuchFieldError: ROCK
+	at moze_intel.projecte.gameObjs.blocks.AlchemicalChest.<init>(AlchemicalChest.java:31)
+	at moze_intel.projecte.gameObjs.ObjHandler.<clinit>(ObjHandler.java:139)
+	at moze_intel.projecte.PECore.preInit(PECore.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 212609248 bytes (202 MB) / 481558528 bytes (459 MB) up to 4207738880 bytes (4012 MB)
+	JVM Flags: 2 total; -Xincgc -Xmx4096M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2838 Optifine OptiFine_1.12.2_HD_U_E3 28 mods loaded, 28 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID              | Version           | Source                                        | Signature                                |
+	|:----- |:--------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft       | 1.12.2            | minecraft.jar                                 | None                                     |
+	| LCH   | mcp             | 9.42              | minecraft.jar                                 | None                                     |
+	| LCH   | FML             | 8.0.99.99         | forge-1.12.2-14.23.5.2838.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge           | 14.23.5.2838      | forge-1.12.2-14.23.5.2838.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | baubles         | 1.5.2             | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LCH   | codechickenlib  | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | crafttweaker    | 4.1.20            | CraftTweaker2-1.12-4.1.20.574.jar             | None                                     |
+	| LCH   | mantle          | 1.12-1.3.3.55     | Mantle-1.12-1.3.3.55.jar                      | None                                     |
+	| LCH   | jei             | 4.15.0.268        | jei_1.12.2-4.15.0.268.jar                     | None                                     |
+	| LCH   | thaumcraft      | 6.1.BETA26        | Thaumcraft-1.12.2-6.1.BETA26.jar              | None                                     |
+	| LCH   | twilightforest  | 3.10.1013         | twilightforest-1.12.2-3.10.1013-universal.jar | None                                     |
+	| LCH   | tconstruct      | 1.12.2-2.13.0.183 | TConstruct-1.12.2-2.13.0.183.jar              | None                                     |
+	| LCH   | conarm          | 1.2.5.9           | conarm-1.12.2-1.2.5.9.jar                     | 2484ef4d131fdc0dca0647aa21b7b944ddb935a1 |
+	| LCH   | ctgui           | 1.0.0             | CraftTweaker2-1.12-4.1.20.574.jar             | None                                     |
+	| LCH   | crafttweakerjei | 2.0.3             | CraftTweaker2-1.12-4.1.20.574.jar             | None                                     |
+	| LCH   | customnpcs      | 1.12              | CustomNPCs_1.12.2-(05Jul20).jar               | None                                     |
+	| LCH   | llibrary        | 1.7.18            | LLibrary-1.12.2.jar                           | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCH   | iceandfire      | 1.9.1             | iceandfire-1.9.1-1.12.2 (1).jar               | None                                     |
+	| LCH   | ironchest       | 1.12-7.0.31.818   | ironchest-1.12-7.0.31.818.jar                 | None                                     |
+	| LCH   | journeymap      | 1.12-5.4.9        | journeymap-1.12-5.4.9.jar                     | None                                     |
+	| LCH   | levelup2        | ${version}        | Level+Up%21+2-1.1.5-1.12.jar                  | None                                     |
+	| LCH   | nbtedit         | 1.11.2-2.0.2      | NBTEdit-1.12-2.0.2.jar                        | None                                     |
+	| LCE   | projecte        | @VERSION@         | pe.jar                                        | None                                     |
+	| LC    | plustic         | 8.0.0.1           | plustic-8.0.0.1.jar                           | None                                     |
+	| LC    | quickstore      | 1.0               | quickstore-1.2.jar                            | None                                     |
+	| LC    | torohealthmod   | 1.12.2-11         | torohealth-1.12.2-11.jar                      | None                                     |
+	| LC    | waystones       | 4.0.67            | Waystones_1.12.2-4.0.67.jar                   | None                                     |
+	| LC    | weaponlevels    | 2.4.0             | weaponlevels-2.4.0.jar                        | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+iceandfire (iceandfire-1.9.1-1.12.2 (1).jar)
+  com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 446.14' Renderer: 'GeForce RTX 2070 SUPER/PCIe/SSE2'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+
+	OptiFine Version: OptiFine_1.12.2_HD_U_E3
+	OptiFine Build: 20181210-121000
+	Render Distance Chunks: 18
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: BSL Standard v7.0p1.zip
+	OpenGlVersion: 4.6.0 NVIDIA 446.14
+	OpenGlRenderer: GeForce RTX 2070 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12

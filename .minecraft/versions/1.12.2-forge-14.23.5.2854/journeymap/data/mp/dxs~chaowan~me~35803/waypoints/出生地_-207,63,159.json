@@ -1,0 +1,18 @@
+{
+  "id": "出生地_-207,63,159",
+  "name": "出生地",
+  "icon": "waypoint-normal.png",
+  "x": -207,
+  "y": 63,
+  "z": 159,
+  "r": 112,
+  "g": 12,
+  "b": 144,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

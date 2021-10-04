@@ -1,0 +1,7374 @@
+var colorpalette={
+  "version": 5.4,
+  "name": "JourneyMap调色板",
+  "generated": "Generated using JourneyMap 1.12-5.4.9 for 1.12 on Wed Aug 19 16:06:07 CST 2020",
+  "description": [
+    "该文件可用来在资源包发生改变时保持地图颜色的连贯性。",
+    "擅自编辑修改会有风险。你可以通过colorpalette.html 文件查看它。",
+    "若想使该调色板文件只用于单独一个游戏世界，请将colorpalette.json放入：.minecraft/journeymap/data/*/worldname/",
+    "若想使该调色板文件用于所有游戏世界，对其进行编辑将\"permanent\"设置为true（\"permanent\": true），然后将colorpalette.json放入：.minecraft/journeymap/",
+    "想要获取更多信息，请访问：http://journeymap.info/Color_Palette"
+  ],
+  "permanent": false,
+  "resourcePacks": "Default",
+  "modNames": "Advent Of Ascension:3.3.4, Baubles:1.5.2, CT-GUI:1.0.0, CodeChicken Lib:3.2.3.358, Construct\u0027s Armory:1.2.5.9, CraftTweaker JEI Support:2.0.3, CraftTweaker2:4.1.20, CustomNPCs:1.12, Forge Mod Loader:8.0.99.99, Ice and Fire:1.9.1, In-game NBTEdit:1.11.2-2.0.2, Infernal Mobs:1.7.5, Iron Chest:1.12-7.0.31.818, JourneyMap:1.12-5.4.9, Just Enough Items:4.15.0.268, LLibrary:1.7.18, Level Up! Reloaded:${version}, Mantle:1.12-1.3.3.55, Minecraft Coder Pack:9.42, Minecraft Forge:14.23.5.2854, Minecraft:1.12.2, PlusTiC:8.0.0.1, ProjectE:1.12.2-PE1.4.1, QuickStore:1.0, Thaumcraft:6.1.BETA26, The Twilight Forest:3.10.1013, Tinkers\u0027 Construct:1.12.2-2.13.0.183, ToroHealth Damage Indicators:1.12.2-11, Touhou Little Maid:1.2.2, Waystones:4.0.67, Weapon Levels:2.4.0",
+  "blockColors": [
+    {
+      "uid": "conarm:armorforge",
+      "name": "盔甲装配台",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "conarm:armorstation",
+      "name": "盔甲组装台",
+      "color": "#82683d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "conarm:soft_obsidian",
+      "name": "空气",
+      "color": "#14121d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#1e161f"
+        },
+        {
+          "color": "#2a1c22"
+        },
+        {
+          "color": "#3a2220"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:ash",
+      "name": "灰烬",
+      "color": "#373737",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:chared_cobblestone",
+      "name": "焦灰圆石",
+      "color": "#3f3f3f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:chared_dirt",
+      "name": "焦土",
+      "color": "#453223",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:chared_grass",
+      "name": "焦灰草方块",
+      "color": "#3d2c1e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:chared_grass_path",
+      "name": "焦灰草径",
+      "color": "#453223",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:chared_gravel",
+      "name": "焦灰沙砾",
+      "color": "#41403f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:chared_stone",
+      "name": "焦灰石头",
+      "color": "#404040",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:desert_myrmex_cocoon",
+      "name": "沙漠储物蚁茧",
+      "color": "#b89163",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragon_bone_block",
+      "name": "龙骨块",
+      "color": "#948c82",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragon_bone_wall",
+      "name": "龙骨墙",
+      "color": "#948c82",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragon_ice",
+      "name": "龙息冰块",
+      "color": "#b5e5ff",
+      "alpha": 0.8
+    },
+    {
+      "uid": "iceandfire:dragon_ice_spikes",
+      "name": "龙息冰刺",
+      "color": "#bee9ff",
+      "alpha": 0.8
+    },
+    {
+      "uid": "iceandfire:dragonforge_fire_brick",
+      "name": "龙炎锻炉砖块",
+      "color": "#643b3a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#715049"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:dragonforge_fire_core",
+      "name": "龙炎锻炉核心",
+      "color": "#974f2c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonforge_fire_core_disabled",
+      "name": "龙炎锻炉核心",
+      "color": "#412c2b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonforge_fire_input",
+      "name": "龙炎锻炉焰孔",
+      "color": "#614441",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#825a48"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:dragonforge_ice_brick",
+      "name": "龙霜锻炉砖块",
+      "color": "#5c6e75",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#5c737a"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:dragonforge_ice_core",
+      "name": "龙霜锻炉核心",
+      "color": "#3f9aa6",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonforge_ice_core_disabled",
+      "name": "龙霜锻炉核心",
+      "color": "#40494e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonforge_ice_input",
+      "name": "龙霜锻炉焰孔",
+      "color": "#58686e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#587881"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:dragonscale_blue",
+      "name": "龙鳞块",
+      "color": "#98cff3",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonscale_bronze",
+      "name": "龙鳞块",
+      "color": "#4c2a09",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonscale_gray",
+      "name": "龙鳞块",
+      "color": "#2d2c29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonscale_green",
+      "name": "龙鳞块",
+      "color": "#164117",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonscale_red",
+      "name": "龙鳞块",
+      "color": "#4b0a09",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonscale_sapphire",
+      "name": "龙鳞块",
+      "color": "#173573",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonscale_silver",
+      "name": "龙鳞块",
+      "color": "#8b94a1",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonscale_white",
+      "name": "龙鳞块",
+      "color": "#e1e1e1",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonsteel_fire_block",
+      "name": "龙炎钢块",
+      "color": "#504d5e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dragonsteel_ice_block",
+      "name": "龙霜钢块",
+      "color": "#cfdbe0",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_spawner",
+      "name": "悚域刷怪笼",
+      "color": "#2e3b3f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone",
+      "name": "悚石",
+      "color": "#25282d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_bricks",
+      "name": "悚砖",
+      "color": "#23262c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_bricks_chiseled",
+      "name": "錾制悚砖",
+      "color": "#22242a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_bricks_cracked",
+      "name": "裂悚砖",
+      "color": "#212329",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_bricks_mossy",
+      "name": "苔悚砖",
+      "color": "#272e30",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_face",
+      "name": "錾制骷面悚砖",
+      "color": "#2a2d35",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_slab",
+      "name": "悚砖台阶",
+      "color": "#23262c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_slab_double",
+      "name": "悚砖台阶",
+      "color": "#23262c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_stairs",
+      "name": "悚砖楼梯",
+      "color": "#23262c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dread_stone_tile",
+      "name": "悚石瓦块",
+      "color": "#25282e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dreadwood_log",
+      "name": "悚木原木",
+      "color": "#171a1b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dreadwood_planks",
+      "name": "悚木木板",
+      "color": "#292523",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:dreadwood_planks_lock",
+      "name": "悚木锁孔",
+      "color": "#2d2a29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:egginice",
+      "name": "冰封龙蛋",
+      "color": "#7dadff",
+      "alpha": 0.8
+    },
+    {
+      "uid": "iceandfire:fire_lily",
+      "name": "烈焰百合",
+      "color": "#973909",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frost_lily",
+      "name": "寒冰百合",
+      "color": "#25a8ae",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frozen_cobblestone",
+      "name": "霜冻圆石",
+      "color": "#b3d9ee",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frozen_dirt",
+      "name": "冻土",
+      "color": "#b6d5e6",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frozen_grass",
+      "name": "霜冻草方块",
+      "color": "#b7d8ea",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frozen_grass_path",
+      "name": "霜冻草径",
+      "color": "#b6d5e6",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frozen_gravel",
+      "name": "霜冻沙砾",
+      "color": "#b2d8ed",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frozen_splinters",
+      "name": "碎冰",
+      "color": "#b9d8e7",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:frozen_stone",
+      "name": "霜冻石头",
+      "color": "#b1d8ed",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:goldpile",
+      "name": "金堆",
+      "color": "#edd746",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:jar_empty",
+      "name": "广口瓶",
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "uid": "iceandfire:jar_pixie",
+      "name": "精灵瓶",
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "uid": "iceandfire:jungle_myrmex_cocoon",
+      "name": "丛林储物蚁茧",
+      "color": "#484629",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:lectern",
+      "name": "书桌",
+      "color": "#6b4c2a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:myrmex_desert_biolight",
+      "name": "沙漠蚁穴萤光草",
+      "color": "#f4ad5d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#f6b760"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:myrmex_desert_resin_block",
+      "name": "硬沙漠蚁脂块",
+      "color": "#ec8903",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:myrmex_desert_resin_glass",
+      "name": "沙漠蚁脂玻璃",
+      "color": "#e9790a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:myrmex_jungle_biolight",
+      "name": "丛林蚁穴萤光草",
+      "color": "#83d76a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8adf70"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:myrmex_jungle_resin_block",
+      "name": "硬丛林蚁脂块",
+      "color": "#135207",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:myrmex_jungle_resin_glass",
+      "name": "丛林蚁脂玻璃",
+      "color": "#1e3912",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:myrmex_resin",
+      "name": "沙漠蚁脂土",
+      "color": "#bca581",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "丛林蚁脂土",
+          "color": "#4b3524"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:myrmex_resin_sticky",
+      "name": "沙漠黏蚁脂土",
+      "color": "#b89163",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "丛林黏蚁脂土",
+          "color": "#484629"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:nest",
+      "name": "龙巢",
+      "color": "#606060",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:pixie_house",
+      "name": "橡木精灵小屋",
+      "color": "#cfccc2",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:podium",
+      "name": "橡木展台",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "丛林木展台",
+          "color": "#9a6e4d"
+        },
+        {
+          "name": "云杉木展台",
+          "color": "#674d2e"
+        },
+        {
+          "name": "深色橡木展台",
+          "color": "#3d2712"
+        },
+        {
+          "name": "白桦木展台",
+          "color": "#c3b37b"
+        },
+        {
+          "name": "金合欢木展台",
+          "color": "#a95b33"
+        }
+      ]
+    },
+    {
+      "uid": "iceandfire:sapphire_block",
+      "name": "蓝宝石块",
+      "color": "#3c5392",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sapphire_ore",
+      "name": "蓝宝石矿石",
+      "color": "#696d79",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sea_serpent_scale_block_blue",
+      "name": "海蟒鳞块",
+      "color": "#2769ae",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sea_serpent_scale_block_bronze",
+      "name": "海蟒鳞块",
+      "color": "#7b532c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sea_serpent_scale_block_deepblue",
+      "name": "海蟒鳞块",
+      "color": "#12266a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sea_serpent_scale_block_green",
+      "name": "海蟒鳞块",
+      "color": "#19601f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sea_serpent_scale_block_purple",
+      "name": "海蟒鳞块",
+      "color": "#400d66",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sea_serpent_scale_block_red",
+      "name": "海蟒鳞块",
+      "color": "#ae2736",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:sea_serpent_scale_block_teal",
+      "name": "海蟒鳞块",
+      "color": "#2793ae",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:silver_block",
+      "name": "银块",
+      "color": "#e2e2e2",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:silver_ore",
+      "name": "银矿石",
+      "color": "#8b8b8b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "iceandfire:silverpile",
+      "name": "银堆",
+      "color": "#ccd2da",
+      "alpha": 1.0
+    },
+    {
+      "uid": "ironchest:iron_chest",
+      "name": "铁箱子",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronChest",
+          "color": "#9c7f4e"
+        },
+        {
+          "name": "水晶箱子",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "泥箱子9000!",
+          "color": "#866043"
+        },
+        {
+          "name": "金箱子",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "钻石箱子",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "铜箱子",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "银箱子",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "黑曜石箱子",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_black",
+      "name": "黑色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#19191d"
+        },
+        {
+          "name": "黑色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "黑色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "黑色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "黑色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "黑色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "黑色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_blue",
+      "name": "蓝色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#2b2d8c"
+        },
+        {
+          "name": "蓝色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "蓝色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "蓝色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "蓝色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "蓝色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "蓝色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_brown",
+      "name": "棕色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#6a4223"
+        },
+        {
+          "name": "棕色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "棕色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "棕色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "棕色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "棕色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "棕色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_cyan",
+      "name": "青色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#147987"
+        },
+        {
+          "name": "青色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "青色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "青色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "青色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "青色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "青色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_gray",
+      "name": "灰色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#373a3e"
+        },
+        {
+          "name": "灰色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "灰色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "灰色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "灰色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "灰色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "灰色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_green",
+      "name": "绿色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#4f641f"
+        },
+        {
+          "name": "绿色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "绿色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "绿色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "绿色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "绿色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "绿色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_light_blue",
+      "name": "亮蓝色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#31a3d4"
+        },
+        {
+          "name": "亮蓝色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "亮蓝色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "亮蓝色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "亮蓝色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "亮蓝色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "亮蓝色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_lime",
+      "name": "青橙绿色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#63ac17"
+        },
+        {
+          "name": "青橙绿色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "青橙绿色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "青橙绿色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "青橙绿色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "青橙绿色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "青橙绿色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_magenta",
+      "name": "品红色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#ad36a3"
+        },
+        {
+          "name": "品红色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "品红色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "品红色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "品红色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "品红色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "品红色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_orange",
+      "name": "铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#ea6a08"
+        },
+        {
+          "name": "橘色水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "橘色金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "橘色钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "橘色铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "橘色银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "橘色黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_pink",
+      "name": "粉红色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#e6799d"
+        },
+        {
+          "name": "粉红色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "粉红色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "粉红色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "粉红色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "粉红色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "粉红色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_purple",
+      "name": "紫色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#8b608b"
+        },
+        {
+          "name": "紫色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "紫色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "紫色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "紫色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "紫色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "紫色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_red",
+      "name": "红色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#8c1f1e"
+        },
+        {
+          "name": "红色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "红色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "红色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "红色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "红色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "红色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_silver",
+      "name": "银白色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#7c7c73"
+        },
+        {
+          "name": "银白色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "银白色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "银白色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "银白色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "银白色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "银白色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_white",
+      "name": "白色铁质潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#d7dcdd"
+        },
+        {
+          "name": "白色水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "白色金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "白色钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "白色铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "白色银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "白色黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "ironchest:iron_shulker_box_yellow",
+      "name": "黄色的铁潜影盒",
+      "color": "#c6d5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "IronShulkerBox",
+          "color": "#f8bc1d"
+        },
+        {
+          "name": "黄色的水晶潜影盒",
+          "color": "#16b8ea"
+        },
+        {
+          "name": "黄色的金潜影盒",
+          "color": "#c5d43d"
+        },
+        {
+          "name": "黄色的钻石潜影盒",
+          "color": "#3bdef5"
+        },
+        {
+          "name": "黄色的铜潜影盒",
+          "color": "#ddb89a"
+        },
+        {
+          "name": "黄色的银白色的潜影盒",
+          "color": "#c5cac5"
+        },
+        {
+          "name": "黄色的黑曜石潜影盒",
+          "color": "#14121d"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:acacia_door",
+      "name": "空气",
+      "color": "#9b5836",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#a05c3a"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:acacia_fence",
+      "name": "金合欢栅栏",
+      "color": "#a95b33",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:acacia_fence_gate",
+      "name": "金合欢栅栏门",
+      "color": "#a95b33",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:acacia_stairs",
+      "name": "金合欢木楼梯",
+      "color": "#a95b33",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:activator_rail",
+      "name": "激活铁轨",
+      "color": "#685347",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8d5146"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:anvil",
+      "name": "铁砧",
+      "color": "#404040",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:beacon",
+      "name": "信标",
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:bed",
+      "name": "空气",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:bedrock",
+      "name": "基岩",
+      "color": "#535353",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:beetroots",
+      "name": "空气",
+      "color": "#01ab10",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#00be10"
+        },
+        {
+          "color": "#01bb0f"
+        },
+        {
+          "color": "#507135"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:birch_door",
+      "name": "空气",
+      "color": "#ccc28e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#dad2af"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:birch_fence",
+      "name": "白桦木栅栏",
+      "color": "#c3b37b",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:birch_fence_gate",
+      "name": "白桦木栅栏门",
+      "color": "#c3b37b",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:birch_stairs",
+      "name": "桦木楼梯",
+      "color": "#c3b37b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:black_glazed_terracotta",
+      "name": "黑色带釉陶瓦",
+      "color": "#431e20",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:black_shulker_box",
+      "name": "黑色潜影盒",
+      "color": "#19191d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:blue_glazed_terracotta",
+      "name": "蓝色带釉陶瓦",
+      "color": "#2f408b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:blue_shulker_box",
+      "name": "蓝色潜影盒",
+      "color": "#2b2d8c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:bone_block",
+      "name": "骨块",
+      "color": "#e0dcc8",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:bookshelf",
+      "name": "书架",
+      "color": "#6b5839",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:brewing_stand",
+      "name": "空气",
+      "color": "#7c6751",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:brick_block",
+      "name": "砖块",
+      "color": "#926356",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:brick_stairs",
+      "name": "砖楼梯",
+      "color": "#926356",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:brown_glazed_terracotta",
+      "name": "棕色带釉陶瓦",
+      "color": "#776a55",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:brown_mushroom",
+      "name": "蘑菇",
+      "color": "#8a6953",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:brown_mushroom_block",
+      "name": "蘑菇",
+      "color": "#8d6a53",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:brown_shulker_box",
+      "name": "棕色潜影盒",
+      "color": "#6a4223",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:cactus",
+      "name": "仙人掌",
+      "color": "#0d6618",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:cake",
+      "name": "空气",
+      "color": "#bc8d71",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:carpet",
+      "name": "白色地毯",
+      "color": "#e9ecec",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "品红色地毯",
+          "color": "#bd44b3"
+        },
+        {
+          "name": "棕色地毯",
+          "color": "#724728"
+        },
+        {
+          "name": "橙色地毯",
+          "color": "#f07613"
+        },
+        {
+          "name": "淡灰色地毯",
+          "color": "#8e8e86"
+        },
+        {
+          "name": "淡蓝色地毯",
+          "color": "#3aafd9"
+        },
+        {
+          "name": "灰色地毯",
+          "color": "#3e4447"
+        },
+        {
+          "name": "粉红色地毯",
+          "color": "#ed8dac"
+        },
+        {
+          "name": "紫色地毯",
+          "color": "#792aac"
+        },
+        {
+          "name": "红色地毯",
+          "color": "#a02722"
+        },
+        {
+          "name": "绿色地毯",
+          "color": "#546d1b"
+        },
+        {
+          "name": "蓝色地毯",
+          "color": "#35399d"
+        },
+        {
+          "name": "青色地毯",
+          "color": "#158991"
+        },
+        {
+          "name": "黄绿色地毯",
+          "color": "#70b919"
+        },
+        {
+          "name": "黄色地毯",
+          "color": "#f8c527"
+        },
+        {
+          "name": "黑色地毯",
+          "color": "#141519"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:carrots",
+      "name": "空气",
+      "color": "#01ab10",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#00be10"
+        },
+        {
+          "color": "#01bb0f"
+        },
+        {
+          "color": "#158002"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:cauldron",
+      "name": "空气",
+      "color": "#3e3e3e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:chain_command_block",
+      "name": "连锁型命令方块",
+      "color": "#7e968c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#7f9b8f"
+        },
+        {
+          "color": "#809a8f"
+        },
+        {
+          "color": "#819f92"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:chest",
+      "name": "箱子",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:chorus_flower",
+      "name": "紫颂花",
+      "color": "#856785",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#623f60"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:chorus_plant",
+      "name": "紫颂植物",
+      "color": "#603b60",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:clay",
+      "name": "粘土块",
+      "color": "#9ea4b0",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:coal_block",
+      "name": "煤炭块",
+      "color": "#121212",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:coal_ore",
+      "name": "煤矿石",
+      "color": "#737373",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:cobblestone",
+      "name": "圆石",
+      "color": "#7a7a7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:cobblestone_wall",
+      "name": "圆石墙",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "苔石墙",
+          "color": "#677967"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:cocoa",
+      "name": "空气",
+      "color": "#8a8c40",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#896b33"
+        },
+        {
+          "color": "#91501e"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:command_block",
+      "name": "命令方块",
+      "color": "#a37f6b",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#a7816c"
+        },
+        {
+          "color": "#a8816b"
+        },
+        {
+          "color": "#ac846c"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:concrete",
+      "name": "白色混凝土",
+      "color": "#cfd5d6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "品红色混凝土",
+          "color": "#a9309f"
+        },
+        {
+          "name": "棕色混凝土",
+          "color": "#603b1f"
+        },
+        {
+          "name": "橙色混凝土",
+          "color": "#e06100"
+        },
+        {
+          "name": "淡灰色混凝土",
+          "color": "#7d7d73"
+        },
+        {
+          "name": "淡蓝色混凝土",
+          "color": "#2389c6"
+        },
+        {
+          "name": "灰色混凝土",
+          "color": "#36393d"
+        },
+        {
+          "name": "粉红色混凝土",
+          "color": "#d5658e"
+        },
+        {
+          "name": "紫色混凝土",
+          "color": "#641f9c"
+        },
+        {
+          "name": "红色混凝土",
+          "color": "#8e2020"
+        },
+        {
+          "name": "绿色混凝土",
+          "color": "#495b24"
+        },
+        {
+          "name": "蓝色混凝土",
+          "color": "#2c2e8f"
+        },
+        {
+          "name": "青色混凝土",
+          "color": "#157788"
+        },
+        {
+          "name": "黄绿色混凝土",
+          "color": "#5ea818"
+        },
+        {
+          "name": "黄色混凝土",
+          "color": "#f0af15"
+        },
+        {
+          "name": "黑色混凝土",
+          "color": "#080a0f"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:concrete_powder",
+      "name": "白色混凝土粉末",
+      "color": "#e1e3e3",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "品红色混凝土粉末",
+          "color": "#c053b8"
+        },
+        {
+          "name": "棕色混凝土粉末",
+          "color": "#7d5435"
+        },
+        {
+          "name": "橙色混凝土粉末",
+          "color": "#e3831f"
+        },
+        {
+          "name": "淡灰色混凝土粉末",
+          "color": "#9a9a94"
+        },
+        {
+          "name": "淡蓝色混凝土粉末",
+          "color": "#4ab4d5"
+        },
+        {
+          "name": "灰色混凝土粉末",
+          "color": "#4c5154"
+        },
+        {
+          "name": "粉红色混凝土粉末",
+          "color": "#e499b5"
+        },
+        {
+          "name": "紫色混凝土粉末",
+          "color": "#8337b1"
+        },
+        {
+          "name": "红色混凝土粉末",
+          "color": "#a83632"
+        },
+        {
+          "name": "绿色混凝土粉末",
+          "color": "#61772c"
+        },
+        {
+          "name": "蓝色混凝土粉末",
+          "color": "#4649a6"
+        },
+        {
+          "name": "青色混凝土粉末",
+          "color": "#24939d"
+        },
+        {
+          "name": "黄绿色混凝土粉末",
+          "color": "#7dbd29"
+        },
+        {
+          "name": "黄色混凝土粉末",
+          "color": "#e8c736"
+        },
+        {
+          "name": "黑色混凝土粉末",
+          "color": "#191a1f"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:crafting_table",
+      "name": "工作台",
+      "color": "#735f3f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:cyan_glazed_terracotta",
+      "name": "青色带釉陶瓦",
+      "color": "#34767d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:cyan_shulker_box",
+      "name": "青色潜影盒",
+      "color": "#147987",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:dark_oak_door",
+      "name": "空气",
+      "color": "#412c17",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#452f19"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dark_oak_fence",
+      "name": "深色橡木栅栏",
+      "color": "#3d2712",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:dark_oak_fence_gate",
+      "name": "深色橡木栅栏门",
+      "color": "#3d2712",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:dark_oak_stairs",
+      "name": "深色橡木楼梯 ",
+      "color": "#3d2712",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:daylight_detector",
+      "name": "阳光传感器",
+      "color": "#82745e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:daylight_detector_inverted",
+      "name": "空气",
+      "color": "#6a6d70",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:deadbush",
+      "name": "枯死的灌木",
+      "color": "#7b4f19",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:detector_rail",
+      "name": "探测铁轨",
+      "color": "#786559",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#895c50"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:diamond_block",
+      "name": "钻石块",
+      "color": "#61dbd5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:diamond_ore",
+      "name": "钻石矿石",
+      "color": "#818c8f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:dirt",
+      "name": "灰化土",
+      "color": "#866043",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "砂土",
+          "color": "#77553b"
+        },
+        {
+          "color": "#7a5739"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dispenser",
+      "name": "发射器",
+      "color": "#606060",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#565656"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_plant",
+      "name": "向日葵",
+      "color": "#eac521",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#733d07"
+        },
+        {
+          "color": "#7d7d7d"
+        },
+        {
+          "color": "#84858d"
+        },
+        {
+          "color": "#929292"
+        },
+        {
+          "color": "#94948c"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_stone_slab",
+      "name": "空气",
+      "color": "#a6a6a6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#2c161a"
+        },
+        {
+          "color": "#7a7a7a"
+        },
+        {
+          "color": "#926356"
+        },
+        {
+          "color": "#9c7f4e"
+        },
+        {
+          "color": "#9f9f9f"
+        },
+        {
+          "color": "#d8d19d"
+        },
+        {
+          "color": "#dad29e"
+        },
+        {
+          "color": "#ece9e2"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_stone_slab2",
+      "name": "空气",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#a6551d"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_wooden_slab",
+      "name": "空气",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#3d2712"
+        },
+        {
+          "color": "#674d2e"
+        },
+        {
+          "color": "#9a6e4d"
+        },
+        {
+          "color": "#a95b33"
+        },
+        {
+          "color": "#c3b37b"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dragon_egg",
+      "name": "龙蛋",
+      "color": "#0c090f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:dropper",
+      "name": "投掷器",
+      "color": "#606060",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#565656"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:emerald_block",
+      "name": "绿宝石块",
+      "color": "#51d975",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:emerald_ore",
+      "name": "绿宝石矿石",
+      "color": "#6d8074",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:enchanting_table",
+      "name": "附魔台",
+      "color": "#12101b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:end_bricks",
+      "name": "末地石砖",
+      "color": "#e1e6aa",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:end_portal_frame",
+      "name": "末地传送门",
+      "color": "#93a07b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:end_rod",
+      "name": "末地烛",
+      "color": "#dcc5cd",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:end_stone",
+      "name": "末地石",
+      "color": "#dddfa5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:ender_chest",
+      "name": "末影箱",
+      "color": "#14121d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:farmland",
+      "name": "耕地",
+      "color": "#866043",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:fence",
+      "name": "橡木栅栏",
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:fence_gate",
+      "name": "橡木栅栏门",
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:fire",
+      "name": "空气",
+      "color": "#d48e34",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:flower_pot",
+      "name": "空气",
+      "color": "#764133",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:flowing_lava",
+      "name": "空气",
+      "color": "#d8681a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:flowing_water",
+      "name": "空气",
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "uid": "minecraft:frosted_ice",
+      "name": "空气",
+      "color": "#7dadff",
+      "alpha": 0.8,
+      "variants": [
+        {
+          "color": "#84b2ff"
+        },
+        {
+          "color": "#89b5ff"
+        },
+        {
+          "color": "#93bcff"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:furnace",
+      "name": "熔炉",
+      "color": "#4e4e4e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#717171"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:glass",
+      "name": "玻璃",
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:glass_pane",
+      "name": "玻璃板",
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:glowstone",
+      "name": "荧石",
+      "color": "#8f7645",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:gold_block",
+      "name": "金块",
+      "color": "#f9ec4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:gold_ore",
+      "name": "金矿石",
+      "color": "#8f8b7c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:golden_rail",
+      "name": "充能铁轨",
+      "color": "#846c48",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#9a6846"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:grass",
+      "name": "草方块",
+      "color": "#866043",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:grass_path",
+      "name": "草径",
+      "color": "#866043",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:gravel",
+      "name": "沙砾",
+      "color": "#7e7c7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:gray_glazed_terracotta",
+      "name": "灰色带釉陶瓦",
+      "color": "#535a5d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:gray_shulker_box",
+      "name": "灰色潜影盒",
+      "color": "#373a3e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:green_glazed_terracotta",
+      "name": "绿色带釉陶瓦",
+      "color": "#758e43",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:green_shulker_box",
+      "name": "绿色潜影盒",
+      "color": "#4f641f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:hardened_clay",
+      "name": "陶瓦",
+      "color": "#965c42",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:hay_block",
+      "name": "干草块",
+      "color": "#9d7412",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:heavy_weighted_pressure_plate",
+      "name": "测重压力板（重质）",
+      "color": "#dbdbdb",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:hopper",
+      "name": "漏斗",
+      "color": "#3e3e3e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:ice",
+      "name": "冰",
+      "color": "#7dadff",
+      "alpha": 0.8
+    },
+    {
+      "uid": "minecraft:iron_bars",
+      "name": "铁栏杆",
+      "color": "#6d6c6a",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:iron_block",
+      "name": "铁块",
+      "color": "#dbdbdb",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:iron_door",
+      "name": "空气",
+      "color": "#a3a3a3",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#bababa"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:iron_ore",
+      "name": "铁矿石",
+      "color": "#87827e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:iron_trapdoor",
+      "name": "铁活板门",
+      "color": "#c7c7c7",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:jukebox",
+      "name": "唱片机",
+      "color": "#644332",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:jungle_door",
+      "name": "空气",
+      "color": "#966d4e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#9c7354"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:jungle_fence",
+      "name": "丛林木栅栏",
+      "color": "#9a6e4d",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:jungle_fence_gate",
+      "name": "丛林木栅栏门",
+      "color": "#9a6e4d",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:jungle_stairs",
+      "name": "丛林木楼梯",
+      "color": "#9a6e4d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:ladder",
+      "name": "梯子",
+      "color": "#795f34",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lapis_block",
+      "name": "青金石块",
+      "color": "#264389",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lapis_ore",
+      "name": "青金石矿石",
+      "color": "#667086",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lava",
+      "name": "空气",
+      "color": "#d8681a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:leaves",
+      "name": "白桦树叶",
+      "color": "#878787",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "丛林树叶",
+          "color": "#918e86"
+        },
+        {
+          "name": "云杉树叶",
+          "color": "#747474"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:leaves2",
+      "name": "深色橡树树叶",
+      "color": "#878787",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lever",
+      "name": "拉杆",
+      "color": "#7a7a7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:light_blue_glazed_terracotta",
+      "name": "淡蓝色带釉陶瓦",
+      "color": "#5ea4d0",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:light_blue_shulker_box",
+      "name": "淡蓝色潜影盒",
+      "color": "#31a3d4",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:light_weighted_pressure_plate",
+      "name": "测重压力板（轻质）",
+      "color": "#f9ec4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lime_glazed_terracotta",
+      "name": "黄绿色带釉陶瓦",
+      "color": "#a2c537",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lime_shulker_box",
+      "name": "黄绿色潜影盒",
+      "color": "#63ac17",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lit_furnace",
+      "name": "空气",
+      "color": "#7d6655",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#717171"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:lit_pumpkin",
+      "name": "南瓜灯",
+      "color": "#c57817",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#b9851c"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:lit_redstone_lamp",
+      "name": "空气",
+      "color": "#775937",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:lit_redstone_ore",
+      "name": "空气",
+      "color": "#846b6b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:log",
+      "name": "橡木",
+      "color": "#665131",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#2d1c0c"
+        },
+        {
+          "color": "#57431a"
+        },
+        {
+          "color": "#cecec9"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:log2",
+      "name": "橡木",
+      "color": "#696359",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#342817"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:magenta_glazed_terracotta",
+      "name": "品红色带釉陶瓦",
+      "color": "#d064bf",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:magenta_shulker_box",
+      "name": "品红色潜影盒",
+      "color": "#ad36a3",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:magma",
+      "name": "岩浆块",
+      "color": "#864119",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:melon_block",
+      "name": "西瓜",
+      "color": "#8d9124",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:melon_stem",
+      "name": "空气",
+      "color": "#999999",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:mob_spawner",
+      "name": "刷怪箱",
+      "color": "#1a2731",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:monster_egg",
+      "name": "石头怪物蛋",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "石砖怪物蛋",
+          "color": "#7a7a7a"
+        },
+        {
+          "name": "苔石砖怪物蛋",
+          "color": "#72776a"
+        },
+        {
+          "name": "錾制石砖怪物蛋",
+          "color": "#767676"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:mossy_cobblestone",
+      "name": "苔石",
+      "color": "#677967",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:mycelium",
+      "name": "菌丝",
+      "color": "#715849",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#866043"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:nether_brick",
+      "name": "地狱砖",
+      "color": "#2c161a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:nether_brick_fence",
+      "name": "地狱砖栅栏",
+      "color": "#2c161a",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:nether_brick_stairs",
+      "name": "地狱砖楼梯",
+      "color": "#2c161a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:nether_wart",
+      "name": "空气",
+      "color": "#6a0e1e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#6c0f16"
+        },
+        {
+          "color": "#6f1211"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:nether_wart_block",
+      "name": "地狱疣块",
+      "color": "#750607",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:netherrack",
+      "name": "地狱岩",
+      "color": "#6f3634",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:noteblock",
+      "name": "音符盒",
+      "color": "#644332",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:oak_stairs",
+      "name": "橡木楼梯",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:observer",
+      "name": "侦测器",
+      "color": "#444242",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#484141"
+        },
+        {
+          "color": "#616161"
+        },
+        {
+          "color": "#666565"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:obsidian",
+      "name": "黑曜石",
+      "color": "#14121d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:orange_glazed_terracotta",
+      "name": "橙色带釉陶瓦",
+      "color": "#9a935b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:orange_shulker_box",
+      "name": "橙色潜影盒",
+      "color": "#ea6a08",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:packed_ice",
+      "name": "浮冰",
+      "color": "#a5c2f5",
+      "alpha": 0.8
+    },
+    {
+      "uid": "minecraft:pink_glazed_terracotta",
+      "name": "粉红色带釉陶瓦",
+      "color": "#eb9ab5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:pink_shulker_box",
+      "name": "粉红色潜影盒",
+      "color": "#e6799d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:piston",
+      "name": "活塞",
+      "color": "#606060",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#6a665f"
+        },
+        {
+          "color": "#998159"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:piston_head",
+      "name": "空气",
+      "color": "#6a665f",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8d9263"
+        },
+        {
+          "color": "#998159"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:planks",
+      "name": "橡木木板",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "丛林木板",
+          "color": "#9a6e4d"
+        },
+        {
+          "name": "云杉木板",
+          "color": "#674d2e"
+        },
+        {
+          "name": "深色橡木木板",
+          "color": "#3d2712"
+        },
+        {
+          "name": "白桦木板",
+          "color": "#c3b37b"
+        },
+        {
+          "name": "金合欢木板",
+          "color": "#a95b33"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:portal",
+      "name": "空气",
+      "color": "#590cc0",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:potatoes",
+      "name": "空气",
+      "color": "#01ab10",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#00be10"
+        },
+        {
+          "color": "#01bb0f"
+        },
+        {
+          "color": "#22aa24"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:powered_comparator",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:powered_repeater",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:prismarine",
+      "name": "海晶石",
+      "color": "#6aaa96",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "暗海晶石",
+          "color": "#3b574b"
+        },
+        {
+          "name": "海晶石砖",
+          "color": "#63a08f"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:pumpkin",
+      "name": "南瓜",
+      "color": "#c57817",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8e4c0c"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:pumpkin_stem",
+      "name": "空气",
+      "color": "#999999",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:purple_glazed_terracotta",
+      "name": "紫色带釉陶瓦",
+      "color": "#6d3098",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:purple_shulker_box",
+      "name": "紫色潜影盒",
+      "color": "#8b608b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:purpur_block",
+      "name": "紫珀块",
+      "color": "#a679a6",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:purpur_double_slab",
+      "name": "空气",
+      "color": "#a679a6",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:purpur_pillar",
+      "name": "竖纹紫珀块",
+      "color": "#aa7eaa",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:purpur_slab",
+      "name": "紫珀台阶",
+      "color": "#a679a6",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:purpur_stairs",
+      "name": "紫珀楼梯",
+      "color": "#a679a6",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:quartz_block",
+      "name": "石英块",
+      "color": "#ece9e2",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "錾制石英块",
+          "color": "#e7e4dc"
+        },
+        {
+          "color": "#e7e3db"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:quartz_ore",
+      "name": "下界石英矿石",
+      "color": "#7d544f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:quartz_stairs",
+      "name": "石英楼梯",
+      "color": "#ece9e2",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:rail",
+      "name": "铁轨",
+      "color": "#796c58",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#786b56"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_flower",
+      "name": "红色郁金香",
+      "color": "#980406",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "兰花",
+          "color": "#1e7eb6"
+        },
+        {
+          "name": "橙色郁金香",
+          "color": "#a3581a"
+        },
+        {
+          "name": "滨菊",
+          "color": "#b3b3b3"
+        },
+        {
+          "name": "白色郁金香",
+          "color": "#b0b0b0"
+        },
+        {
+          "name": "粉红色郁金香",
+          "color": "#b09ab0"
+        },
+        {
+          "name": "绒球葱",
+          "color": "#8549b6"
+        },
+        {
+          "name": "茜草花",
+          "color": "#9da1a7"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_glazed_terracotta",
+      "name": "红色带釉陶瓦",
+      "color": "#b53b35",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:red_mushroom",
+      "name": "蘑菇",
+      "color": "#c33538",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:red_mushroom_block",
+      "name": "蘑菇",
+      "color": "#b62524",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:red_nether_brick",
+      "name": "红色地狱砖",
+      "color": "#440406",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:red_sandstone",
+      "name": "红砂岩",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "平滑红砂岩",
+          "color": "#a8551e"
+        },
+        {
+          "name": "錾制红砂岩",
+          "color": "#a2521b"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_sandstone_stairs",
+      "name": "红砂岩楼梯",
+      "color": "#a5541d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:red_shulker_box",
+      "name": "红色潜影盒",
+      "color": "#8c1f1e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:redstone_block",
+      "name": "红石块",
+      "color": "#ab1b09",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:redstone_lamp",
+      "name": "红石灯",
+      "color": "#462b1a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:redstone_ore",
+      "name": "红石矿石",
+      "color": "#846b6b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:redstone_wire",
+      "name": "空气",
+      "color": "#f0f0f0",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:reeds",
+      "name": "空气",
+      "color": "#94c065",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:repeating_command_block",
+      "name": "循环型命令方块",
+      "color": "#7969a2",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#7969a8"
+        },
+        {
+          "color": "#7a6aa6"
+        },
+        {
+          "color": "#7b6bab"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sand",
+      "name": "沙子",
+      "color": "#dbd3a0",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "红沙",
+          "color": "#a95821"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sandstone",
+      "name": "砂岩",
+      "color": "#d8d19d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "平滑砂岩",
+          "color": "#dbd3a1"
+        },
+        {
+          "name": "錾制砂岩",
+          "color": "#d7d09a"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sandstone_stairs",
+      "name": "砂岩楼梯",
+      "color": "#d8d19d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:sapling",
+      "name": "橡树树苗",
+      "color": "#476625",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#305612"
+        },
+        {
+          "color": "#333a21"
+        },
+        {
+          "color": "#38561c"
+        },
+        {
+          "color": "#727314"
+        },
+        {
+          "color": "#769654"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sea_lantern",
+      "name": "海晶灯",
+      "color": "#acc8be",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:silver_glazed_terracotta",
+      "name": "淡灰色带釉陶瓦",
+      "color": "#90a6a7",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:silver_shulker_box",
+      "name": "淡灰色潜影盒",
+      "color": "#7c7c73",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:slime",
+      "name": "粘液块",
+      "color": "#78c865",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:snow",
+      "name": "雪",
+      "color": "#effbfb",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:snow_layer",
+      "name": "雪",
+      "color": "#effbfb",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:soul_sand",
+      "name": "灵魂沙",
+      "color": "#544033",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:sponge",
+      "name": "海绵",
+      "color": "#c2c354",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "湿海绵",
+          "color": "#a09e3f"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:spruce_door",
+      "name": "空气",
+      "color": "#614b31",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#604a31"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:spruce_fence",
+      "name": "云杉木栅栏",
+      "color": "#674d2e",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:spruce_fence_gate",
+      "name": "云杉木栅栏门",
+      "color": "#674d2e",
+      "alpha": 0.4
+    },
+    {
+      "uid": "minecraft:spruce_stairs",
+      "name": "云杉木楼梯",
+      "color": "#674d2e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:stained_glass",
+      "name": "白色染色玻璃",
+      "color": "#ffffff",
+      "alpha": 0.4,
+      "variants": [
+        {
+          "name": "品红色染色玻璃",
+          "color": "#b24cd8"
+        },
+        {
+          "name": "棕色染色玻璃",
+          "color": "#664c33"
+        },
+        {
+          "name": "橙色染色玻璃",
+          "color": "#d87f33"
+        },
+        {
+          "name": "淡灰色染色玻璃",
+          "color": "#999999"
+        },
+        {
+          "name": "淡蓝色染色玻璃",
+          "color": "#6699d8"
+        },
+        {
+          "name": "灰色染色玻璃",
+          "color": "#4c4c4c"
+        },
+        {
+          "name": "粉红色染色玻璃",
+          "color": "#f27fa5"
+        },
+        {
+          "name": "紫色染色玻璃",
+          "color": "#7f3fb2"
+        },
+        {
+          "name": "红色染色玻璃",
+          "color": "#993333"
+        },
+        {
+          "name": "绿色染色玻璃",
+          "color": "#667f33"
+        },
+        {
+          "name": "蓝色染色玻璃",
+          "color": "#334cb2"
+        },
+        {
+          "name": "青色染色玻璃",
+          "color": "#4c7f99"
+        },
+        {
+          "name": "黄绿色染色玻璃",
+          "color": "#7fcc19"
+        },
+        {
+          "name": "黄色染色玻璃",
+          "color": "#e5e533"
+        },
+        {
+          "name": "黑色染色玻璃",
+          "color": "#191919"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stained_glass_pane",
+      "name": "白色染色玻璃板",
+      "color": "#ffffff",
+      "alpha": 0.4,
+      "variants": [
+        {
+          "name": "品红色染色玻璃板",
+          "color": "#b24cd8"
+        },
+        {
+          "name": "棕色染色玻璃板",
+          "color": "#664c33"
+        },
+        {
+          "name": "橙色染色玻璃板",
+          "color": "#d87f33"
+        },
+        {
+          "name": "淡灰色染色玻璃板",
+          "color": "#999999"
+        },
+        {
+          "name": "淡蓝色染色玻璃板",
+          "color": "#6699d8"
+        },
+        {
+          "name": "灰色染色玻璃板",
+          "color": "#4c4c4c"
+        },
+        {
+          "name": "粉红色染色玻璃板",
+          "color": "#f27fa5"
+        },
+        {
+          "name": "紫色染色玻璃板",
+          "color": "#7f3fb2"
+        },
+        {
+          "name": "红色染色玻璃板",
+          "color": "#993333"
+        },
+        {
+          "name": "绿色染色玻璃板",
+          "color": "#667f33"
+        },
+        {
+          "name": "蓝色染色玻璃板",
+          "color": "#334cb2"
+        },
+        {
+          "name": "青色染色玻璃板",
+          "color": "#4c7f99"
+        },
+        {
+          "name": "黄绿色染色玻璃板",
+          "color": "#7fcc19"
+        },
+        {
+          "name": "黄色染色玻璃板",
+          "color": "#e5e533"
+        },
+        {
+          "name": "黑色染色玻璃板",
+          "color": "#191919"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stained_hardened_clay",
+      "name": "白色陶瓦",
+      "color": "#d1b2a1",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "品红色陶瓦",
+          "color": "#95586c"
+        },
+        {
+          "name": "棕色陶瓦",
+          "color": "#4d3323"
+        },
+        {
+          "name": "橙色陶瓦",
+          "color": "#a15325"
+        },
+        {
+          "name": "淡灰色陶瓦",
+          "color": "#876a61"
+        },
+        {
+          "name": "淡蓝色陶瓦",
+          "color": "#716c89"
+        },
+        {
+          "name": "灰色陶瓦",
+          "color": "#392a23"
+        },
+        {
+          "name": "粉红色陶瓦",
+          "color": "#a14e4e"
+        },
+        {
+          "name": "紫色陶瓦",
+          "color": "#764656"
+        },
+        {
+          "name": "红色陶瓦",
+          "color": "#8f3d2e"
+        },
+        {
+          "name": "绿色陶瓦",
+          "color": "#4c532a"
+        },
+        {
+          "name": "蓝色陶瓦",
+          "color": "#4a3b5b"
+        },
+        {
+          "name": "青色陶瓦",
+          "color": "#565b5b"
+        },
+        {
+          "name": "黄绿色陶瓦",
+          "color": "#677534"
+        },
+        {
+          "name": "黄色陶瓦",
+          "color": "#ba8523"
+        },
+        {
+          "name": "黑色陶瓦",
+          "color": "#251610"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sticky_piston",
+      "name": "粘性活塞",
+      "color": "#606060",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#6a665f"
+        },
+        {
+          "color": "#8d9263"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone",
+      "name": "石头",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "安山岩",
+          "color": "#828383"
+        },
+        {
+          "name": "磨制安山岩",
+          "color": "#858586"
+        },
+        {
+          "name": "磨制花岗岩",
+          "color": "#9f7262"
+        },
+        {
+          "name": "磨制闪长岩",
+          "color": "#b7b7b9"
+        },
+        {
+          "name": "花岗岩",
+          "color": "#997162"
+        },
+        {
+          "name": "闪长岩",
+          "color": "#b3b3b6"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone_brick_stairs",
+      "name": "石砖楼梯",
+      "color": "#7a7a7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:stone_button",
+      "name": "按钮",
+      "color": "#7d7d7d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:stone_pressure_plate",
+      "name": "石质压力板",
+      "color": "#7d7d7d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:stone_slab",
+      "name": "石台阶",
+      "color": "#a6a6a6",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#2c161a"
+        },
+        {
+          "color": "#7a7a7a"
+        },
+        {
+          "color": "#926356"
+        },
+        {
+          "color": "#9c7f4e"
+        },
+        {
+          "color": "#d8d19d"
+        },
+        {
+          "color": "#ece9e2"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone_slab2",
+      "name": "红砂岩台阶",
+      "color": "#a5541d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:stone_stairs",
+      "name": "圆石楼梯",
+      "color": "#7a7a7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:stonebrick",
+      "name": "石砖",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "苔石砖",
+          "color": "#72776a"
+        },
+        {
+          "name": "錾制石砖",
+          "color": "#767676"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:structure_block",
+      "name": "结构方块",
+      "color": "#564757",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#443945"
+        },
+        {
+          "color": "#453946"
+        },
+        {
+          "color": "#4f4150"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:tnt",
+      "name": "TNT",
+      "color": "#a95c47",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:trapdoor",
+      "name": "活板门",
+      "color": "#7e5d2d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:trapped_chest",
+      "name": "陷阱箱",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:tripwire",
+      "name": "空气",
+      "color": "#818181",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:tripwire_hook",
+      "name": "绊线钩",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:unpowered_comparator",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:unpowered_repeater",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:vine",
+      "name": "藤蔓",
+      "color": "#6f6f6f",
+      "alpha": 0.2
+    },
+    {
+      "uid": "minecraft:water",
+      "name": "空气",
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "uid": "minecraft:waterlily",
+      "name": "睡莲",
+      "color": "#767676",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:web",
+      "name": "蜘蛛网",
+      "color": "#dcdcdc",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:wheat",
+      "name": "空气",
+      "color": "#00b312",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#12ac0f"
+        },
+        {
+          "color": "#1c890b"
+        },
+        {
+          "color": "#258b08"
+        },
+        {
+          "color": "#2e8007"
+        },
+        {
+          "color": "#427b07"
+        },
+        {
+          "color": "#507607"
+        },
+        {
+          "color": "#566607"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:white_glazed_terracotta",
+      "name": "白色带釉陶瓦",
+      "color": "#bcd4ca",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:white_shulker_box",
+      "name": "白色潜影盒",
+      "color": "#d7dcdd",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:wooden_button",
+      "name": "按钮",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:wooden_door",
+      "name": "空气",
+      "color": "#866532",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#866733"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:wooden_pressure_plate",
+      "name": "木质压力板",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:wooden_slab",
+      "name": "橡木台阶",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#3d2712"
+        },
+        {
+          "color": "#674d2e"
+        },
+        {
+          "color": "#9a6e4d"
+        },
+        {
+          "color": "#a95b33"
+        },
+        {
+          "color": "#c3b37b"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:wool",
+      "name": "白色羊毛",
+      "color": "#e9ecec",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "品红色羊毛",
+          "color": "#bd44b3"
+        },
+        {
+          "name": "棕色羊毛",
+          "color": "#724728"
+        },
+        {
+          "name": "橙色羊毛",
+          "color": "#f07613"
+        },
+        {
+          "name": "淡灰色羊毛",
+          "color": "#8e8e86"
+        },
+        {
+          "name": "淡蓝色羊毛",
+          "color": "#3aafd9"
+        },
+        {
+          "name": "灰色羊毛",
+          "color": "#3e4447"
+        },
+        {
+          "name": "粉红色羊毛",
+          "color": "#ed8dac"
+        },
+        {
+          "name": "紫色羊毛",
+          "color": "#792aac"
+        },
+        {
+          "name": "红色羊毛",
+          "color": "#a02722"
+        },
+        {
+          "name": "绿色羊毛",
+          "color": "#546d1b"
+        },
+        {
+          "name": "蓝色羊毛",
+          "color": "#35399d"
+        },
+        {
+          "name": "青色羊毛",
+          "color": "#158991"
+        },
+        {
+          "name": "黄绿色羊毛",
+          "color": "#70b919"
+        },
+        {
+          "name": "黄色羊毛",
+          "color": "#f8c527"
+        },
+        {
+          "name": "黑色羊毛",
+          "color": "#141519"
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:yellow_flower",
+      "name": "蒲公英",
+      "color": "#afb401",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:yellow_glazed_terracotta",
+      "name": "黄色带釉陶瓦",
+      "color": "#eac058",
+      "alpha": 1.0
+    },
+    {
+      "uid": "minecraft:yellow_shulker_box",
+      "name": "黄色潜影盒",
+      "color": "#f8bc1d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "plustic:alumiteblock",
+      "name": "耐酸铝块",
+      "color": "#ee86a9",
+      "alpha": 1.0
+    },
+    {
+      "uid": "plustic:centrifuge",
+      "name": "Centrifuge Tank",
+      "color": "#153c6a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "Centrifuge Core",
+          "color": "#3b4b5a"
+        }
+      ]
+    },
+    {
+      "uid": "plustic:invarblock",
+      "name": "殷钢块",
+      "color": "#b2b597",
+      "alpha": 1.0
+    },
+    {
+      "uid": "plustic:plustic.molten_alumite",
+      "name": "熔融耐酸铝",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "plustic:plustic.molten_invar",
+      "name": "熔融殷钢",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "plustic:plustic.molten_iridium",
+      "name": "熔融铱",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "plustic:plustic.molten_thaumium",
+      "name": "熔融神秘",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "projecte:alchemical_chest",
+      "name": "炼金术箱子",
+      "color": "#323536",
+      "alpha": 1.0
+    },
+    {
+      "uid": "projecte:collector_mk1",
+      "name": "能量收集器MK1",
+      "color": "#947743",
+      "alpha": 0.4,
+      "variants": [
+        {
+          "color": "#866b3b"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:collector_mk2",
+      "name": "能量收集器MK2",
+      "color": "#947743",
+      "alpha": 0.4,
+      "variants": [
+        {
+          "color": "#866b3b"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:collector_mk3",
+      "name": "能量收集器MK3",
+      "color": "#947743",
+      "alpha": 0.4,
+      "variants": [
+        {
+          "color": "#866b3b"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:condenser_mk1",
+      "name": "能量凝聚器",
+      "color": "#1e272e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "projecte:condenser_mk2",
+      "name": "能量凝聚器MK2",
+      "color": "#1e272e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "projecte:dm_furnace",
+      "name": "暗物质熔炉",
+      "color": "#101010",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#0c0c0c"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:dm_furnace_lit",
+      "name": "空气",
+      "color": "#101010",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#341d0c"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:dm_pedestal",
+      "name": "暗物质台座",
+      "color": "#101010",
+      "alpha": 1.0
+    },
+    {
+      "uid": "projecte:fuel_block",
+      "name": "炼金煤炭块",
+      "color": "#7e0008",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "永恒燃料块",
+          "color": "#999991"
+        },
+        {
+          "name": "莫比乌斯燃料块",
+          "color": "#7f0c09"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:matter_block",
+      "name": "暗物质方块",
+      "color": "#101010",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "红物质方块",
+          "color": "#420303"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:nova_cataclysm",
+      "name": "灾难新星",
+      "color": "#9e6837",
+      "alpha": 1.0
+    },
+    {
+      "uid": "projecte:nova_catalyst",
+      "name": "爆破新星",
+      "color": "#95410f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "projecte:relay_mk1",
+      "name": "反物质继电器MK1",
+      "color": "#2c2c2c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#272727"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:relay_mk2",
+      "name": "反物质继电器MK2",
+      "color": "#2c2c2c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#272727"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:relay_mk3",
+      "name": "反物质继电器MK3",
+      "color": "#2c2c2c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#272727"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:rm_furnace",
+      "name": "红物质熔炉",
+      "color": "#420303",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#290303"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:rm_furnace_lit",
+      "name": "空气",
+      "color": "#420303",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#501403"
+        }
+      ]
+    },
+    {
+      "uid": "projecte:transmutation_table",
+      "name": "转化桌",
+      "color": "#7c6b76",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:blood",
+      "name": "空气",
+      "color": "#a9a9a9",
+      "alpha": 0.3
+    },
+    {
+      "uid": "tconstruct:blueslime",
+      "name": "空气",
+      "color": "#a9a9a9",
+      "alpha": 0.3
+    },
+    {
+      "uid": "tconstruct:brownstone",
+      "name": "平滑褐岩块",
+      "color": "#918b64",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "三角纹褐岩石砖",
+          "color": "#87815a"
+        },
+        {
+          "name": "粗质褐岩块",
+          "color": "#827c55"
+        },
+        {
+          "name": "细纹褐岩石砖",
+          "color": "#88825b"
+        },
+        {
+          "name": "裂纹褐岩石砖",
+          "color": "#857f58"
+        },
+        {
+          "name": "褐岩瓷砖块",
+          "color": "#868059"
+        },
+        {
+          "name": "褐岩盖板石",
+          "color": "#8f8962"
+        },
+        {
+          "name": "錾制褐岩石砖",
+          "color": "#807a53"
+        },
+        {
+          "name": "雕琢褐岩块",
+          "color": "#8b855e"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:brownstone_slab",
+      "name": "平滑褐岩台阶",
+      "color": "#918b64",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "粗质褐岩台阶",
+          "color": "#827c55"
+        },
+        {
+          "name": "裂纹褐岩石砖台阶",
+          "color": "#857f58"
+        },
+        {
+          "name": "褐岩盖板石台阶",
+          "color": "#8f8962"
+        },
+        {
+          "name": "褐岩石砖台阶",
+          "color": "#8b855e"
+        },
+        {
+          "name": "褐岩铺路石台阶",
+          "color": "#88825b"
+        },
+        {
+          "name": "錾制褐岩石砖台阶",
+          "color": "#807a53"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:brownstone_slab2",
+      "name": "褐岩雕琢台阶",
+      "color": "#8b855e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "三角纹褐岩石砖台阶",
+          "color": "#87815a"
+        },
+        {
+          "name": "细纹褐岩石砖台阶",
+          "color": "#88825b"
+        },
+        {
+          "name": "褐岩瓷砖台阶",
+          "color": "#868059"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_brick",
+      "name": "褐岩石砖楼梯",
+      "color": "#8b855e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_brick_cracked",
+      "name": "裂纹褐岩石砖楼梯",
+      "color": "#857f58",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_brick_fancy",
+      "name": "平滑褐岩石砖楼梯",
+      "color": "#88825b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_brick_small",
+      "name": "细纹褐岩石砖楼梯",
+      "color": "#88825b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_brick_square",
+      "name": "錾制褐岩石砖楼梯",
+      "color": "#807a53",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_brick_triangle",
+      "name": "三角纹褐岩石砖楼梯",
+      "color": "#87815a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_creeper",
+      "name": "褐岩雕琢楼梯",
+      "color": "#8b855e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_paver",
+      "name": "褐岩盖板石楼梯",
+      "color": "#8f8962",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_road",
+      "name": "褐岩铺路石楼梯",
+      "color": "#88825b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_rough",
+      "name": "粗质褐岩楼梯",
+      "color": "#827c55",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_smooth",
+      "name": "平滑褐岩楼梯",
+      "color": "#918b64",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:brownstone_stairs_tile",
+      "name": "褐岩瓷砖楼梯",
+      "color": "#868059",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:casting",
+      "name": "浇铸台",
+      "color": "#414141",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "铸造盆",
+          "color": "#3d3d3d"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:channel",
+      "name": "浇注道",
+      "color": "#3b3b3b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:clear_glass",
+      "name": "通透玻璃",
+      "color": "#f8fdfe",
+      "alpha": 0.4
+    },
+    {
+      "uid": "tconstruct:clear_stained_glass",
+      "name": "通透黑色染色玻璃",
+      "color": "#eeeeee",
+      "alpha": 0.4
+    },
+    {
+      "uid": "tconstruct:deco_ground",
+      "name": "泥砖",
+      "color": "#7b6045",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:deco_ground_slab",
+      "name": "泥砖台阶",
+      "color": "#7b6045",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:dried_brick_stairs",
+      "name": "干燥粘土砖楼梯",
+      "color": "#817663",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:dried_clay",
+      "name": "干燥粘土",
+      "color": "#807556",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "干燥粘土砖",
+          "color": "#817663"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:dried_clay_slab",
+      "name": "干燥粘土台阶",
+      "color": "#807556",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "干燥粘土砖台阶",
+          "color": "#817663"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:dried_clay_stairs",
+      "name": "干燥粘土楼梯",
+      "color": "#807556",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:faucet",
+      "name": "浇注口",
+      "color": "#363636",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:firewood",
+      "name": "熔岩木",
+      "color": "#6f4225",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "烈焰木",
+          "color": "#622c29"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:firewood_slab",
+      "name": "熔岩木台阶",
+      "color": "#6f4225",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "烈焰木台阶",
+          "color": "#622c29"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:firewood_stairs",
+      "name": "烈焰木楼梯",
+      "color": "#622c29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:glow",
+      "name": "空气",
+      "color": "#fffc9c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:lavawood_stairs",
+      "name": "熔岩木楼梯",
+      "color": "#6f4225",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:metal",
+      "name": "钴块",
+      "color": "#277be1",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "玛玉灵块",
+          "color": "#9255bc"
+        },
+        {
+          "name": "生铁块",
+          "color": "#d8a7a7"
+        },
+        {
+          "name": "精致珠宝块",
+          "color": "#f2d374"
+        },
+        {
+          "name": "铝黄铜块",
+          "color": "#d4ae43"
+        },
+        {
+          "name": "阿迪特块",
+          "color": "#e06702"
+        },
+        {
+          "name": "骑士史莱姆块",
+          "color": "#c486ee"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:milk",
+      "name": "空气",
+      "color": "#fcfcfc",
+      "alpha": 0.3
+    },
+    {
+      "uid": "tconstruct:molten_alubrass",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_aluminum",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_ardite",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_brass",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_bronze",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_clay",
+      "name": "空气",
+      "color": "#858585",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_cobalt",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_copper",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_dirt",
+      "name": "空气",
+      "color": "#858585",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_dragonsteel_fire",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_dragonsteel_ice",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_electrum",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_emerald",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_glass",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_gold",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_iron",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_knightslime",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_lead",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_manyullyn",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_nickel",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_obsidian",
+      "name": "空气",
+      "color": "#858585",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_pigiron",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_silver",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_steel",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_stone",
+      "name": "空气",
+      "color": "#858585",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_tin",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:molten_zinc",
+      "name": "空气",
+      "color": "#b5b5b5",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:mudbrick_stairs",
+      "name": "泥砖楼梯",
+      "color": "#7b6045",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:ore",
+      "name": "钴矿石",
+      "color": "#0b3685",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "阿迪特矿石",
+          "color": "#8d7027"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:punji",
+      "name": "尖竹钉",
+      "color": "#95bd69",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:purpleslime",
+      "name": "空气",
+      "color": "#a9a9a9",
+      "alpha": 0.3
+    },
+    {
+      "uid": "tconstruct:rack",
+      "name": "物品架",
+      "color": "#9c7f4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared",
+      "name": "焦黑石头",
+      "color": "#3b3b3b",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "三角纹焦黑石砖",
+          "color": "#3a3a3a"
+        },
+        {
+          "name": "焦黑圆石",
+          "color": "#383838"
+        },
+        {
+          "name": "焦黑瓷砖",
+          "color": "#323232"
+        },
+        {
+          "name": "焦黑铺路石",
+          "color": "#363636"
+        },
+        {
+          "name": "焦黑雕琢石砖块",
+          "color": "#393939"
+        },
+        {
+          "name": "细纹焦黑石砖",
+          "color": "#353535"
+        },
+        {
+          "name": "錾制焦黑石砖",
+          "color": "#333333"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:seared_furnace_controller",
+      "name": "焦黑熔炉控制器",
+      "color": "#353535",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#2d2d2d"
+        },
+        {
+          "color": "#503929"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:seared_glass",
+      "name": "焦黑玻璃",
+      "color": "#484848",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_slab",
+      "name": "焦黑石头台阶",
+      "color": "#3b3b3b",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "焦黑圆石台阶",
+          "color": "#383838"
+        },
+        {
+          "name": "焦黑盖板石台阶",
+          "color": "#3a3a3a"
+        },
+        {
+          "name": "焦黑石砖台阶",
+          "color": "#353535"
+        },
+        {
+          "name": "焦黑铺路石台阶",
+          "color": "#363636"
+        },
+        {
+          "name": "錾制焦黑石砖台阶",
+          "color": "#333333"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:seared_slab2",
+      "name": "焦黑雕琢台阶",
+      "color": "#393939",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "三角纹焦黑石砖台阶",
+          "color": "#3a3a3a"
+        },
+        {
+          "name": "焦黑瓷砖台阶",
+          "color": "#323232"
+        },
+        {
+          "name": "细纹焦黑石砖台阶",
+          "color": "#353535"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:seared_stairs_brick",
+      "name": "焦黑石砖楼梯",
+      "color": "#353535",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_brick_cracked",
+      "name": "裂纹焦黑石砖楼梯",
+      "color": "#333333",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_brick_fancy",
+      "name": "平滑焦黑石砖楼梯",
+      "color": "#363636",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_brick_small",
+      "name": "细纹焦黑石砖楼梯",
+      "color": "#353535",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_brick_square",
+      "name": "錾制焦黑石砖楼梯",
+      "color": "#333333",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_brick_triangle",
+      "name": "三角纹焦黑石砖楼梯",
+      "color": "#3a3a3a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_cobble",
+      "name": "焦黑圆石楼梯",
+      "color": "#383838",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_creeper",
+      "name": "焦黑雕琢楼梯",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_paver",
+      "name": "焦黑盖板石楼梯",
+      "color": "#3a3a3a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_road",
+      "name": "焦黑铺路石楼梯",
+      "color": "#363636",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_stone",
+      "name": "焦黑石头楼梯",
+      "color": "#3b3b3b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_stairs_tile",
+      "name": "焦黑瓷砖楼梯",
+      "color": "#323232",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:seared_tank",
+      "name": "焦黑储罐",
+      "color": "#353535",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "焦黑容器",
+          "color": "#3c3c3c"
+        },
+        {
+          "name": "焦黑视窗",
+          "color": "#3b3b3b"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime",
+      "name": "绿色史莱姆块",
+      "color": "#78c865",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "Slime Block",
+          "color": "#a18497"
+        },
+        {
+          "name": "凝血块",
+          "color": "#bc1916"
+        },
+        {
+          "name": "熔岩史莱姆块",
+          "color": "#f08f3c"
+        },
+        {
+          "name": "紫色史莱姆块",
+          "color": "#ca5aec"
+        },
+        {
+          "name": "蓝色史莱姆块",
+          "color": "#5cced1"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime_channel",
+      "name": "Slime Channel",
+      "color": "#bcbcbc",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#c5c5c5"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime_congealed",
+      "name": "绿色凝固史莱姆块",
+      "color": "#00c74c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "Congealed Slime Block",
+          "color": "#9a7d96"
+        },
+        {
+          "name": "凝固熔岩史莱姆块",
+          "color": "#ff920d"
+        },
+        {
+          "name": "凝固血块",
+          "color": "#af0100"
+        },
+        {
+          "name": "紫色凝固史莱姆块",
+          "color": "#aa45f3"
+        },
+        {
+          "name": "蓝色凝固史莱姆块",
+          "color": "#00c3c6"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime_dirt",
+      "name": "绿色史莱姆泥土",
+      "color": "#639865",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "熔岩史莱姆泥土",
+          "color": "#ea791e"
+        },
+        {
+          "name": "紫色史莱姆泥土",
+          "color": "#86619a"
+        },
+        {
+          "name": "蓝色史莱姆泥土",
+          "color": "#629298"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime_grass",
+      "name": "史莱姆草方块",
+      "color": "#866043",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "熔岩史莱姆草方块",
+          "color": "#ea791e"
+        },
+        {
+          "name": "紫色史莱姆草方块",
+          "color": "#86619a"
+        },
+        {
+          "name": "绿色史莱姆草方块",
+          "color": "#639865"
+        },
+        {
+          "name": "蓝色史莱姆草方块",
+          "color": "#629298"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime_grass_tall",
+      "name": "史莱姆草",
+      "color": "#b4b4b4",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "史莱姆蕨",
+          "color": "#b9b9b9"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime_leaves",
+      "name": "橙色史莱姆树叶",
+      "color": "#dbdbdb",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:slime_sapling",
+      "name": "蓝色史莱姆树苗",
+      "color": "#4cc38b",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "熔岩史莱姆树苗",
+          "color": "#dc670d"
+        },
+        {
+          "name": "紫色史莱姆树苗",
+          "color": "#657a92"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:slime_vine_blue",
+      "name": "蓝色史莱姆藤蔓",
+      "color": "#b2b2b2",
+      "alpha": 0.2
+    },
+    {
+      "uid": "tconstruct:slime_vine_blue_end",
+      "name": "蓝色史莱姆藤蔓",
+      "color": "#b3b3b3",
+      "alpha": 0.2
+    },
+    {
+      "uid": "tconstruct:slime_vine_blue_mid",
+      "name": "蓝色史莱姆藤蔓",
+      "color": "#b4b4b4",
+      "alpha": 0.2
+    },
+    {
+      "uid": "tconstruct:slime_vine_purple",
+      "name": "紫色史莱姆藤蔓",
+      "color": "#b2b2b2",
+      "alpha": 0.2
+    },
+    {
+      "uid": "tconstruct:slime_vine_purple_end",
+      "name": "紫色史莱姆藤蔓",
+      "color": "#b3b3b3",
+      "alpha": 0.2
+    },
+    {
+      "uid": "tconstruct:slime_vine_purple_mid",
+      "name": "紫色史莱姆藤蔓",
+      "color": "#b4b4b4",
+      "alpha": 0.2
+    },
+    {
+      "uid": "tconstruct:smeltery_controller",
+      "name": "冶炼炉控制器",
+      "color": "#323232",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#353535"
+        },
+        {
+          "color": "#413831"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:smeltery_io",
+      "name": "冶炼炉排液口",
+      "color": "#2c2c2c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#2f2f2f"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:soil",
+      "name": "水泥",
+      "color": "#9fa1ab",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "熔岩黏滑泥泞",
+          "color": "#a9310b"
+        },
+        {
+          "name": "神圣土",
+          "color": "#684224"
+        },
+        {
+          "name": "绿色黏滑泥泞",
+          "color": "#2c5805"
+        },
+        {
+          "name": "蓝色黏滑泥泞",
+          "color": "#054f58"
+        },
+        {
+          "name": "黄泉土",
+          "color": "#392a10"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:stone_ladder",
+      "name": "石梯",
+      "color": "#4c4c4c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:tinker_tank_controller",
+      "name": "工匠储罐控制器",
+      "color": "#323232",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#353535"
+        },
+        {
+          "color": "#3b3b3b"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:toolforge",
+      "name": "工具装配台",
+      "color": "#3c3c3c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "tconstruct:tooltables",
+      "name": "合成站",
+      "color": "#835835",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "工具装配台",
+          "color": "#82683d"
+        },
+        {
+          "name": "模具加工台",
+          "color": "#8b7043"
+        },
+        {
+          "name": "模具箱",
+          "color": "#6d3e1c"
+        },
+        {
+          "name": "部件加工台",
+          "color": "#8f7345"
+        },
+        {
+          "name": "部件箱",
+          "color": "#5b4230"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:wood_rail",
+      "name": "木质轨道",
+      "color": "#7b6239",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#755f35"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:wood_rail_trapdoor",
+      "name": "带活板门的木质轨道",
+      "color": "#80663c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#7b6339"
+        }
+      ]
+    },
+    {
+      "uid": "tconstruct:wooden_hopper",
+      "name": "木漏斗",
+      "color": "#8f6d30",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:activator_rail",
+      "name": "奥术激活轨道",
+      "color": "#665355",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8a527d"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:alembic",
+      "name": "奥术蒸馏器",
+      "color": "#473724",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:amber_block",
+      "name": "琥珀方块",
+      "color": "#eba958",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:amber_brick",
+      "name": "琥珀砖块",
+      "color": "#ecaf5c",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:arcane_ear",
+      "name": "奥术之耳",
+      "color": "#453426",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#7a561c"
+        },
+        {
+          "color": "#7c561c"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:arcane_ear_toggle",
+      "name": "奥术之耳（切换）",
+      "color": "#453426",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#715528"
+        },
+        {
+          "color": "#745528"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:arcane_workbench",
+      "name": "奥术工作台",
+      "color": "#221f17",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:arcane_workbench_charger",
+      "name": "奥术工作台充能器",
+      "color": "#ffffff",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:brain_box",
+      "name": "记忆矩阵",
+      "color": "#52432f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_black",
+      "name": "黑色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_blue",
+      "name": "蓝色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_brown",
+      "name": "棕色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_cyan",
+      "name": "青色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_gray",
+      "name": "灰色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_green",
+      "name": "绿色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_lightblue",
+      "name": "淡蓝色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_lime",
+      "name": "黄绿色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_magenta",
+      "name": "品红色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_orange",
+      "name": "橙色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_pink",
+      "name": "粉色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_purple",
+      "name": "紫色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_red",
+      "name": "红色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_silver",
+      "name": "淡灰色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_white",
+      "name": "白色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:candle_yellow",
+      "name": "黄色油脂蜡烛",
+      "color": "#f1dfbe",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:cinderpearl",
+      "name": "烈焰草",
+      "color": "#79663a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:condenser",
+      "name": "咒波凝结器",
+      "color": "#5e3453",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:condenser_lattice",
+      "name": "咒波凝结器格栅",
+      "color": "#807082",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:condenser_lattice_dirty",
+      "name": "堵塞的咒波凝结器格栅",
+      "color": "#807082",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:crucible",
+      "name": "坩埚",
+      "color": "#383838",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:crystal_aer",
+      "name": "风之结晶",
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:crystal_aqua",
+      "name": "水之结晶",
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:crystal_ignis",
+      "name": "火之结晶",
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:crystal_ordo",
+      "name": "秩序结晶",
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:crystal_perditio",
+      "name": "混沌结晶",
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:crystal_terra",
+      "name": "地之结晶",
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:crystal_vitium",
+      "name": "咒波结晶",
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:dioptra",
+      "name": "神秘屈光仪",
+      "color": "#45474e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#463c4b"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:empty",
+      "name": "间隙",
+      "color": "#808080",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:essentia_input",
+      "name": "源质析出装置",
+      "color": "#675331",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:essentia_output",
+      "name": "源质注入装置",
+      "color": "#675331",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:everfull_urn",
+      "name": "无尽之瓮",
+      "color": "#855555",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:flesh_block",
+      "name": "血肉方块",
+      "color": "#bc8878",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:flux_goo",
+      "name": "空气",
+      "color": "#831aa3",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:grass_ambient",
+      "name": "蕴魔草方块",
+      "color": "#866043",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:inlay",
+      "name": "Redstone Inlay",
+      "color": "#825800",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:jar_brain",
+      "name": "缸中之脑",
+      "color": "#849fbe",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:jar_normal",
+      "name": "源质罐子",
+      "color": "#849fbe",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:jar_void",
+      "name": "虚空罐子",
+      "color": "#809cbe",
+      "alpha": 0.4
+    },
+    {
+      "uid": "thaumcraft:lamp_arcane",
+      "name": "奥术灯",
+      "color": "#504a2e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#393939"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:lamp_fertility",
+      "name": "育种灯",
+      "color": "#4d3737",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#393939"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:lamp_growth",
+      "name": "催生灯",
+      "color": "#3b4527",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#393939"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:leaves_greatwood",
+      "name": "宏伟之木树叶",
+      "color": "#777777",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:leaves_silverwood",
+      "name": "银树树叶",
+      "color": "#4c72ae",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:levitator",
+      "name": "奥术悬浮台",
+      "color": "#453a2a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#322821"
+        },
+        {
+          "color": "#3f352a"
+        },
+        {
+          "color": "#403621"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:liquid_death",
+      "name": "空气",
+      "color": "#a7a7a7",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:log_greatwood",
+      "name": "宏伟之木原木",
+      "color": "#372b27",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:log_silverwood",
+      "name": "银树原木",
+      "color": "#c0bcaa",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:loot_crate_common",
+      "name": "寻常箱",
+      "color": "#3b312d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:loot_crate_rare",
+      "name": "罕见箱",
+      "color": "#39302c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:loot_crate_uncommon",
+      "name": "稀有箱",
+      "color": "#3a302d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:loot_urn_common",
+      "name": "寻常瓮",
+      "color": "#563f31",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:loot_urn_rare",
+      "name": "罕见瓮",
+      "color": "#543d2f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:loot_urn_uncommon",
+      "name": "稀有瓮",
+      "color": "#553e30",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:matrix_cost",
+      "name": "注魔效能石",
+      "color": "#818894",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:matrix_speed",
+      "name": "注魔加速石",
+      "color": "#6b6f77",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:metal_alchemical",
+      "name": "炼金构材",
+      "color": "#423d38",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:metal_alchemical_advanced",
+      "name": "高级炼金构材",
+      "color": "#83633d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:metal_brass",
+      "name": "黄铜方块",
+      "color": "#ab823b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:metal_thaumium",
+      "name": "神秘块",
+      "color": "#403457",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:metal_void",
+      "name": "虚空金属块",
+      "color": "#12091d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:ore_amber",
+      "name": "琥珀矿石",
+      "color": "#877c6a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:ore_cinnabar",
+      "name": "朱砂矿石",
+      "color": "#797171",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:ore_quartz",
+      "name": "石英矿石",
+      "color": "#8c8888",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:pattern_crafter",
+      "name": "奥术组装器",
+      "color": "#312720",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:paving_stone_barrier",
+      "name": "屏障石",
+      "color": "#474343",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:paving_stone_travel",
+      "name": "旅行者铺路石",
+      "color": "#434743",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:pedestal_ancient",
+      "name": "荒古基座",
+      "color": "#444038",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:pedestal_arcane",
+      "name": "奥术基座",
+      "color": "#383838",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:pedestal_eldritch",
+      "name": "邪术基座",
+      "color": "#17141c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:pillar_ancient",
+      "name": "荒古注魔柱",
+      "color": "#ffffff",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:pillar_arcane",
+      "name": "注魔柱",
+      "color": "#ffffff",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:pillar_eldritch",
+      "name": "邪术注魔柱",
+      "color": "#ffffff",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:plank_greatwood",
+      "name": "宏伟之木木板",
+      "color": "#30221e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:plank_silverwood",
+      "name": "银树木板",
+      "color": "#e1d2b4",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:potion_sprayer",
+      "name": "药水喷雾器",
+      "color": "#393834",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#473b27"
+        },
+        {
+          "color": "#574424"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:purifying_fluid",
+      "name": "空气",
+      "color": "#2e43f4",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:recharge_pedestal",
+      "name": "充能基座",
+      "color": "#515146",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:redstone_relay",
+      "name": "红石继能器",
+      "color": "#9f9f9f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:research_table",
+      "name": "研究台",
+      "color": "#271c18",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#221814"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:sapling_greatwood",
+      "name": "宏伟之木树苗",
+      "color": "#324529",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:sapling_silverwood",
+      "name": "银树树苗",
+      "color": "#517a9b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:shimmerleaf",
+      "name": "水银花",
+      "color": "#41664c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_ancient",
+      "name": "荒古台阶",
+      "color": "#3b3234",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_arcane_brick",
+      "name": "奥术石砖台阶",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_arcane_stone",
+      "name": "奥术台阶",
+      "color": "#3c3c3c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_double_ancient",
+      "name": "空气",
+      "color": "#3d3436",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_double_arcane_brick",
+      "name": "空气",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_double_arcane_stone",
+      "name": "空气",
+      "color": "#3c3c3c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_double_eldritch",
+      "name": "空气",
+      "color": "#19161e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_double_greatwood",
+      "name": "空气",
+      "color": "#30221e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_double_silverwood",
+      "name": "空气",
+      "color": "#e1d2b4",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_eldritch",
+      "name": "邪术石头台阶",
+      "color": "#19161e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_greatwood",
+      "name": "宏伟之木台阶",
+      "color": "#30221e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:slab_silverwood",
+      "name": "银树台阶",
+      "color": "#e1d2b4",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:smelter_aux",
+      "name": "附属粘浆泵",
+      "color": "#3a3124",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:smelter_basic",
+      "name": "源质冶炼厂",
+      "color": "#76542e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#4e4332"
+        },
+        {
+          "color": "#7b6743"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:smelter_thaumium",
+      "name": "神秘源质冶炼厂",
+      "color": "#764f30",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#4b3e34"
+        },
+        {
+          "color": "#715940"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:smelter_vent",
+      "name": "辅助排放口",
+      "color": "#2f2d2b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:smelter_void",
+      "name": "虚空金属源质冶炼厂",
+      "color": "#6c4624",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#413528"
+        },
+        {
+          "color": "#634c30"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:spa",
+      "name": "奥术浴场",
+      "color": "#666563",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stabilizer",
+      "name": "稳定器",
+      "color": "#3c3c3c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stairs_ancient",
+      "name": "荒古楼梯",
+      "color": "#53493f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stairs_arcane",
+      "name": "奥术楼梯",
+      "color": "#3e3e3e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stairs_arcane_brick",
+      "name": "奥术石砖楼梯",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stairs_greatwood",
+      "name": "宏伟之木楼梯",
+      "color": "#30221e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stairs_silverwood",
+      "name": "银树楼梯",
+      "color": "#e1d2b4",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_ancient",
+      "name": "荒古石",
+      "color": "#3d3436",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_ancient_doorway",
+      "name": "荒古门廊",
+      "color": "#18131e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_ancient_glyphed",
+      "name": "雕文石头",
+      "color": "#48413b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_ancient_rock",
+      "name": "荒古岩",
+      "color": "#252b30",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_ancient_tile",
+      "name": "荒古砖块",
+      "color": "#53493f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_arcane",
+      "name": "奥术石材",
+      "color": "#3c3c3c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_arcane_brick",
+      "name": "奥术石砖",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_eldritch_tile",
+      "name": "邪术石",
+      "color": "#19161e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:stone_porous",
+      "name": "透水石",
+      "color": "#7a7a7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:table_stone",
+      "name": "石桌",
+      "color": "#646464",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:table_wood",
+      "name": "木桌",
+      "color": "#251b18",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:taint_crust",
+      "name": "陈年污点",
+      "color": "#2f143d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:taint_feature",
+      "name": "腐化肿泡",
+      "color": "#893fab",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:taint_fibre",
+      "name": "腐化草丛",
+      "color": "#3a194b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:taint_geyser",
+      "name": "腐化喷泉",
+      "color": "#5a1f62",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:taint_log",
+      "name": "腐化原木",
+      "color": "#4c2f43",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:taint_rock",
+      "name": "腐化岩石",
+      "color": "#3b2b4e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:taint_soil",
+      "name": "腐化泥土",
+      "color": "#3a2345",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:thaumatorium",
+      "name": "神秘炼金塔",
+      "color": "#ffffff",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:tube",
+      "name": "源质管道",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:tube_buffer",
+      "name": "源质缓存器",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:tube_filter",
+      "name": "过滤源质管道",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:tube_oneway",
+      "name": "定向源质管道",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:tube_restrict",
+      "name": "限定源质管道",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:tube_valve",
+      "name": "源质阀门",
+      "color": "#393939",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:vis_battery",
+      "name": "灵气电池",
+      "color": "#36393a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#3c767f"
+        },
+        {
+          "color": "#3f494b"
+        },
+        {
+          "color": "#41585c"
+        },
+        {
+          "color": "#41646a"
+        }
+      ]
+    },
+    {
+      "uid": "thaumcraft:vis_generator",
+      "name": "灵气发电机",
+      "color": "#362e2a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:vishroom",
+      "name": "纤毛菇",
+      "color": "#9f497a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:void_siphon",
+      "name": "虚空吸管",
+      "color": "#594930",
+      "alpha": 1.0
+    },
+    {
+      "uid": "thaumcraft:wand_workbench",
+      "name": "核心镶饰台",
+      "color": "#4f4d46",
+      "alpha": 1.0
+    },
+    {
+      "uid": "touhou_little_maid:garage_kit",
+      "name": "手办",
+      "color": "#392a23",
+      "alpha": 1.0
+    },
+    {
+      "uid": "touhou_little_maid:gashapon_machines",
+      "name": "扭蛋机",
+      "color": "#decf94",
+      "alpha": 1.0
+    },
+    {
+      "uid": "touhou_little_maid:grid",
+      "name": "女仆交互面板",
+      "color": "#aeaeae",
+      "alpha": 1.0
+    },
+    {
+      "uid": "touhou_little_maid:maid_beacon",
+      "name": "空气",
+      "color": "#905549",
+      "alpha": 1.0
+    },
+    {
+      "uid": "touhou_little_maid:tombstone",
+      "name": "空气",
+      "color": "#909489",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:aurora_block",
+      "name": "极光方块",
+      "color": "#e5e5e5",
+      "alpha": 0.8
+    },
+    {
+      "uid": "twilightforest:aurora_pillar",
+      "name": "极光柱",
+      "color": "#dbdbdb",
+      "alpha": 0.8
+    },
+    {
+      "uid": "twilightforest:aurora_slab",
+      "name": "极光台阶",
+      "color": "#dadada",
+      "alpha": 0.8
+    },
+    {
+      "uid": "twilightforest:auroralized_glass",
+      "name": "极光玻璃",
+      "color": "#f9f9f9",
+      "alpha": 0.8
+    },
+    {
+      "uid": "twilightforest:block_storage",
+      "name": "铁树块",
+      "color": "#685f50",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "极地毛皮块",
+          "color": "#a6b3bb"
+        },
+        {
+          "name": "炽热金属块",
+          "color": "#4d3d26"
+        },
+        {
+          "name": "砷铅铁块",
+          "color": "#a40f0f"
+        },
+        {
+          "name": "钢叶块",
+          "color": "#446835"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:boss_spawner",
+      "name": "TFBossSpawner",
+      "color": "#1a2731",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:burnt_thorns",
+      "name": "烧焦荆棘",
+      "color": "#726c6c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:canopy_button",
+      "name": "苍穹木按钮",
+      "color": "#4f3b29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:canopy_door",
+      "name": "空气",
+      "color": "#503d2c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#513d2a"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:canopy_doubleslab",
+      "name": "空气",
+      "color": "#4f3b29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:canopy_fence",
+      "name": "苍穹木栅栏",
+      "color": "#4f3b29",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:canopy_gate",
+      "name": "苍穹木栅栏门",
+      "color": "#4f3b29",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:canopy_planks",
+      "name": "苍穹木板",
+      "color": "#4f3b29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:canopy_plate",
+      "name": "苍穹木压力板",
+      "color": "#4f3b29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:canopy_slab",
+      "name": "苍穹木台阶",
+      "color": "#4f3b29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:canopy_stairs",
+      "name": "苍穹木楼梯",
+      "color": "#4f3b29",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:canopy_trapdoor",
+      "name": "苍穹木活板门",
+      "color": "#4d3a28",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:castle_brick",
+      "name": "城堡砖",
+      "color": "#dbd3ce",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "厚重城堡砖",
+          "color": "#dcd4ce"
+        },
+        {
+          "name": "城堡顶瓦",
+          "color": "#333439"
+        },
+        {
+          "name": "生苔城堡砖",
+          "color": "#c2c5ba"
+        },
+        {
+          "name": "碎裂城堡砖",
+          "color": "#d6cdc9"
+        },
+        {
+          "name": "磨损城堡砖",
+          "color": "#dcd4cd"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:castle_door",
+      "name": "TFCastleDoor",
+      "color": "#ffffff",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:castle_door_vanished",
+      "name": "空气",
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:castle_pillar",
+      "name": "粗纹城堡砖瓦",
+      "color": "#868282",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "TFCastlePillar",
+          "color": "#dbd3ce"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:castle_rune_brick",
+      "name": "紫色城堡符文砖",
+      "color": "#dbd3ce",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:castle_stairs",
+      "name": "TFCastleStairs",
+      "color": "#868282",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#d9d0cc"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:castle_stairs_brick",
+      "name": "城堡砖楼梯",
+      "color": "#dbd3ce",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:castle_stairs_cracked",
+      "name": "碎裂城堡砖楼梯",
+      "color": "#d6cdc9",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:castle_stairs_mossy",
+      "name": "生苔城堡砖楼梯",
+      "color": "#c2c5ba",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:castle_stairs_worn",
+      "name": "磨损城堡砖楼梯",
+      "color": "#dcd4cd",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:castle_unlock",
+      "name": "空气",
+      "color": "#4d919f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:cicada",
+      "name": "蝉",
+      "color": "#78c865",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:cinder_furnace",
+      "name": "余烬熔炉【未实现】",
+      "color": "#717171",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#4e4e4e"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:cinder_furnace_lit",
+      "name": "空气",
+      "color": "#717171",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#7d6655"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:cinder_log",
+      "name": "余烬原木【未实现】",
+      "color": "#1e2a31",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_button",
+      "name": "黑木按钮",
+      "color": "#815230",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_door",
+      "name": "空气",
+      "color": "#875835",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8d5c39"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:dark_doubleslab",
+      "name": "空气",
+      "color": "#815230",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_fence",
+      "name": "黑木栅栏",
+      "color": "#815230",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:dark_gate",
+      "name": "黑木栅栏门",
+      "color": "#815230",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:dark_leaves",
+      "name": "黑树树叶",
+      "color": "#3e3e3e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_planks",
+      "name": "黑木木板",
+      "color": "#815230",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_plate",
+      "name": "黑木压力板",
+      "color": "#815230",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_slab",
+      "name": "黑木台阶",
+      "color": "#815230",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_stairs",
+      "name": "黑木楼梯",
+      "color": "#815230",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:dark_trapdoor",
+      "name": "黑木活板门",
+      "color": "#815534",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:deadrock",
+      "name": "风化死岩",
+      "color": "#7a7f7f",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "死岩",
+          "color": "#666a6a"
+        },
+        {
+          "name": "裂纹死岩",
+          "color": "#737878"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:double_aurora_slab",
+      "name": "空气",
+      "color": "#dadada",
+      "alpha": 0.8
+    },
+    {
+      "uid": "twilightforest:etched_nagastone",
+      "name": "蚀刻娜迦石",
+      "color": "#777777",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#767676"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:etched_nagastone_mossy",
+      "name": "蚀刻娜迦苔石",
+      "color": "#6b7261",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#6a7261"
+        },
+        {
+          "color": "#6b7361"
+        },
+        {
+          "color": "#6d7464"
+        },
+        {
+          "color": "#6e7464"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:etched_nagastone_weathered",
+      "name": "风化的蚀刻娜迦石",
+      "color": "#707070",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#727272"
+        },
+        {
+          "color": "#737373"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:experiment_115",
+      "name": "空气",
+      "color": "#87493f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:fiery_essence",
+      "name": "空气",
+      "color": "#3e1616",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:fire_jet",
+      "name": "被包裹的炽红火焰喷射",
+      "color": "#606060",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:firefly",
+      "name": "萤火虫",
+      "color": "#78c865",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:firefly_jar",
+      "name": "萤火虫罐子",
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:fluffy_cloud",
+      "name": "浮云",
+      "color": "#e6e8e9",
+      "alpha": 0.8
+    },
+    {
+      "uid": "twilightforest:giant_cobblestone",
+      "name": "巨型圆石",
+      "color": "#7a7a7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:giant_leaves",
+      "name": "巨型树叶",
+      "color": "#878787",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:giant_log",
+      "name": "巨型原木",
+      "color": "#665131",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:giant_obsidian",
+      "name": "巨型黑曜石",
+      "color": "#14121d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:hedge",
+      "name": "树篱",
+      "color": "#3d662e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "黑树树叶",
+          "color": "#3e3e3e"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:huge_lilypad",
+      "name": "巨型睡莲",
+      "color": "#767676",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:huge_mushgloom",
+      "name": "巨型荧光蘑菇",
+      "color": "#efe09e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:huge_stalk",
+      "name": "巨大的茎",
+      "color": "#47561c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:huge_waterlily",
+      "name": "巨型荷花",
+      "color": "#b15374",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:iron_ladder",
+      "name": "铁梯子",
+      "color": "#757372",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:knightmetal_block",
+      "name": "骑士金属块",
+      "color": "#868c7c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:lapis_block",
+      "name": "空气",
+      "color": "#2d3763",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:magic_leaves",
+      "name": "TFMagicLeaves",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#989898"
+        },
+        {
+          "color": "#a2a2a2"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:magic_log",
+      "name": "TFMagicLog",
+      "color": "#2f1b13",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#655031"
+        },
+        {
+          "color": "#65686d"
+        },
+        {
+          "color": "#a9936e"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:magic_log_core",
+      "name": "TFMagicLogSpecial",
+      "color": "#5d5451",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#5b7c7e"
+        },
+        {
+          "color": "#605941"
+        },
+        {
+          "color": "#6f7173"
+        },
+        {
+          "color": "#73695a"
+        },
+        {
+          "color": "#7e7669"
+        },
+        {
+          "color": "#8f9365"
+        },
+        {
+          "color": "#9a886a"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:mangrove_button",
+      "name": "红木按钮",
+      "color": "#b99c6f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mangrove_door",
+      "name": "空气",
+      "color": "#b49973",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#b99d78"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:mangrove_doubleslab",
+      "name": "空气",
+      "color": "#b99c6f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mangrove_fence",
+      "name": "红木栅栏",
+      "color": "#b99c6f",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:mangrove_gate",
+      "name": "红木栅栏门",
+      "color": "#b99c6f",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:mangrove_planks",
+      "name": "红木板",
+      "color": "#b99c6f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mangrove_plate",
+      "name": "红木压力板",
+      "color": "#b99c6f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mangrove_slab",
+      "name": "红木台阶",
+      "color": "#b99c6f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mangrove_stairs",
+      "name": "红木楼梯",
+      "color": "#b99c6f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mangrove_trapdoor",
+      "name": "红木活板门",
+      "color": "#ab8e69",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:maze_stone",
+      "name": "遗迹石头",
+      "color": "#707b70",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "破碎遗迹石砖",
+          "color": "#6f796f"
+        },
+        {
+          "name": "装饰遗迹石砖",
+          "color": "#768076"
+        },
+        {
+          "name": "遗迹石沿",
+          "color": "#717b71"
+        },
+        {
+          "name": "遗迹苔石砖",
+          "color": "#6c7763"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:mine_button",
+      "name": "矿石木按钮",
+      "color": "#a6957f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mine_door",
+      "name": "空气",
+      "color": "#72675a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#73695c"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:mine_doubleslab",
+      "name": "空气",
+      "color": "#a6957f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mine_fence",
+      "name": "矿石木栅栏",
+      "color": "#a6957f",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:mine_gate",
+      "name": "矿石木栅栏门",
+      "color": "#a6957f",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:mine_planks",
+      "name": "矿石木板",
+      "color": "#a6957f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mine_plate",
+      "name": "矿石木压力板",
+      "color": "#a6957f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mine_slab",
+      "name": "矿石木台阶",
+      "color": "#a6957f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mine_stairs",
+      "name": "矿石木楼梯",
+      "color": "#a6957f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:mine_trapdoor",
+      "name": "矿石木活板门",
+      "color": "#6d6355",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:molten_fierymetal",
+      "name": "空气",
+      "color": "#1d1313",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:molten_knightmetal",
+      "name": "空气",
+      "color": "#8d9a7e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:moonworm",
+      "name": "月光蠕虫",
+      "color": "#78c865",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:naga_stone",
+      "name": "TFNagastone",
+      "color": "#797979",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:nagastone_pillar",
+      "name": "娜迦石柱",
+      "color": "#787878",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:nagastone_pillar_mossy",
+      "name": "娜迦苔石柱",
+      "color": "#6e7566",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:nagastone_pillar_weathered",
+      "name": "风化的娜迦石柱",
+      "color": "#767676",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#757575"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:nagastone_stairs",
+      "name": "TFNagastoneStairs",
+      "color": "#777777",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#767676"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:nagastone_stairs_mossy",
+      "name": "TFNagastoneStairs",
+      "color": "#6b7361",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#6a7261"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:nagastone_stairs_weathered",
+      "name": "TFNagastoneStairs",
+      "color": "#737373",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#727272"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:root",
+      "name": "根茎",
+      "color": "#604a20",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "活根",
+          "color": "#6c6524"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:slider",
+      "name": "TFSlider",
+      "color": "#725238",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:sort_button",
+      "name": "分类木按钮",
+      "color": "#58381e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:sort_door",
+      "name": "空气",
+      "color": "#5d3c21",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#603e23"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:sort_doubleslab",
+      "name": "空气",
+      "color": "#58381e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:sort_fence",
+      "name": "分类木栅栏",
+      "color": "#58381e",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:sort_gate",
+      "name": "分类木栅栏门",
+      "color": "#58381e",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:sort_planks",
+      "name": "分类木板",
+      "color": "#58381e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:sort_plate",
+      "name": "分类木压力板",
+      "color": "#58381e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:sort_slab",
+      "name": "分类木台阶",
+      "color": "#58381e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:sort_stairs",
+      "name": "分类木楼梯",
+      "color": "#58381e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:sort_trapdoor",
+      "name": "分类木活板门",
+      "color": "#593a21",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:spiral_bricks",
+      "name": "螺旋石砖【开发中】",
+      "color": "#767676",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:stone_twist",
+      "name": "TFPillar",
+      "color": "#7b7b7b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:stone_twist_thin",
+      "name": "TFWallPillar",
+      "color": "#7b7b7b",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:stronghold_shield",
+      "name": "要塞护盾",
+      "color": "#865e5e",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#6c7c68"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:terrorcotta_circle",
+      "name": "圈状陶瓦",
+      "color": "#b8b08d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:terrorcotta_diagonal",
+      "name": "对角陶瓦",
+      "color": "#b8af8d",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:thorn_rose",
+      "name": "荆棘玫瑰",
+      "color": "#6c352e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:thorns",
+      "name": "荆棘",
+      "color": "#523522",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#3a5322"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:time_button",
+      "name": "时光木按钮",
+      "color": "#785639",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:time_door",
+      "name": "空气",
+      "color": "#7e5b3d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#7d5b3e"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:time_doubleslab",
+      "name": "空气",
+      "color": "#785639",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:time_fence",
+      "name": "时光木栅栏",
+      "color": "#785639",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:time_gate",
+      "name": "时光木栅栏门",
+      "color": "#785639",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:time_planks",
+      "name": "时光木板",
+      "color": "#785639",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:time_plate",
+      "name": "时光木压力板",
+      "color": "#785639",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:time_slab",
+      "name": "时光木台阶",
+      "color": "#785639",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:time_stairs",
+      "name": "时光木楼梯",
+      "color": "#785639",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:time_trapdoor",
+      "name": "时光木活板门",
+      "color": "#765439",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:tower_device",
+      "name": "重现的方块",
+      "color": "#bc8d5d",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "关闭的高塔建设者",
+          "color": "#a68457"
+        },
+        {
+          "name": "反建器",
+          "color": "#bc9954"
+        },
+        {
+          "name": "消失的方块",
+          "color": "#b89864"
+        },
+        {
+          "name": "激活消失的方块",
+          "color": "#b5a564"
+        },
+        {
+          "name": "激活的恶魂陷阱",
+          "color": "#bba76e"
+        },
+        {
+          "name": "激活的砷铅铁反应堆",
+          "color": "#a9a252"
+        },
+        {
+          "name": "激活的重现方块",
+          "color": "#b6ab5d"
+        },
+        {
+          "name": "激活的高塔建设者",
+          "color": "#afa757"
+        },
+        {
+          "name": "砷铅铁反应堆",
+          "color": "#b17c52"
+        },
+        {
+          "name": "解锁的消失的方块",
+          "color": "#b4a662"
+        },
+        {
+          "name": "锁定的消失的方块",
+          "color": "#b89562"
+        },
+        {
+          "name": "高塔建设者",
+          "color": "#b78457"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:tower_translucent",
+      "name": "伪钻石块",
+      "color": "#d47802",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:tower_wood",
+      "name": "塔树木板",
+      "color": "#8d5934",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "塔树板箱",
+          "color": "#bba76e"
+        },
+        {
+          "name": "破裂塔木",
+          "color": "#8a5834"
+        },
+        {
+          "name": "虫蛀塔木",
+          "color": "#724a2d"
+        },
+        {
+          "name": "青苔塔木",
+          "color": "#855c37"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:trans_button",
+      "name": "变化木按钮",
+      "color": "#867860",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trans_door",
+      "name": "空气",
+      "color": "#8c7254",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8d7356"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:trans_doubleslab",
+      "name": "空气",
+      "color": "#867860",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trans_fence",
+      "name": "变化木栅栏",
+      "color": "#867860",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:trans_gate",
+      "name": "变化木栅栏门",
+      "color": "#867860",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:trans_planks",
+      "name": "变化木板",
+      "color": "#867860",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trans_plate",
+      "name": "变化木压力板",
+      "color": "#867860",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trans_slab",
+      "name": "变化木台阶",
+      "color": "#867860",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trans_stairs",
+      "name": "变化木楼梯",
+      "color": "#867860",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trans_trapdoor",
+      "name": "变化木活板门",
+      "color": "#836b4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trollber",
+      "name": "巨魔莓",
+      "color": "#c2b482",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trollsteinn",
+      "name": "巨魔岩石",
+      "color": "#4a4749",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trollvidr",
+      "name": "巨魔藤蔓",
+      "color": "#49493e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trophy",
+      "name": "空气",
+      "color": "#544033",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:trophy_pedestal",
+      "name": "TFTrophyPedestal",
+      "color": "#7a7a7a",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_leaves",
+      "name": "TFLeaves",
+      "color": "#878787",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#747474"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:twilight_leaves_3",
+      "name": "TFLeaves3",
+      "color": "#878787",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#747474"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:twilight_log",
+      "name": "TFLog",
+      "color": "#5f4d3f",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#1f1d0e"
+        },
+        {
+          "color": "#343326"
+        },
+        {
+          "color": "#867a6a"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:twilight_oak_button",
+      "name": "暮色橡木按钮",
+      "color": "#896e4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_oak_door",
+      "name": "空气",
+      "color": "#8c7254",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "color": "#8d7356"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:twilight_oak_doubleslab",
+      "name": "空气",
+      "color": "#896e4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_oak_fence",
+      "name": "暮色橡木栅栏",
+      "color": "#896e4f",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:twilight_oak_gate",
+      "name": "暮色橡木栅栏门",
+      "color": "#896e4f",
+      "alpha": 0.4
+    },
+    {
+      "uid": "twilightforest:twilight_oak_planks",
+      "name": "暮色橡木板",
+      "color": "#896e4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_oak_plate",
+      "name": "暮色橡木压力板",
+      "color": "#896e4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_oak_slab",
+      "name": "暮色橡木台阶",
+      "color": "#896e4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_oak_stairs",
+      "name": "暮色橡木楼梯",
+      "color": "#896e4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_oak_trapdoor",
+      "name": "暮色橡木活板门",
+      "color": "#836b4f",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_plant",
+      "name": "暮色森林苔藓",
+      "color": "#427a3c",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "三叶草 [WIP]",
+          "color": "#539c15"
+        },
+        {
+          "name": "暮色森林蕨类",
+          "color": "#afb399"
+        },
+        {
+          "name": "林地草",
+          "color": "#878787"
+        },
+        {
+          "name": "枯死的灌木",
+          "color": "#7b4f19"
+        },
+        {
+          "name": "树叶堆",
+          "color": "#747474"
+        },
+        {
+          "name": "根须",
+          "color": "#654f1e"
+        },
+        {
+          "name": "火炬浆果植物",
+          "color": "#537a28"
+        },
+        {
+          "name": "荧光蘑菇",
+          "color": "#776437"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:twilight_portal",
+      "name": "空气",
+      "color": "#590cc0",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:twilight_sapling",
+      "name": "暮色橡树树苗",
+      "color": "#496932",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "分类树树苗",
+          "color": "#69672e"
+        },
+        {
+          "name": "变化树树苗",
+          "color": "#5c707c"
+        },
+        {
+          "name": "彩虹树树苗",
+          "color": "#636c4c"
+        },
+        {
+          "name": "时光树树苗",
+          "color": "#464d1e"
+        },
+        {
+          "name": "矿石树树苗",
+          "color": "#958753"
+        },
+        {
+          "name": "红树树苗",
+          "color": "#5a7143"
+        },
+        {
+          "name": "苍穹树树苗",
+          "color": "#242e19"
+        },
+        {
+          "name": "高大暮色橡树树苗",
+          "color": "#5d8037"
+        },
+        {
+          "name": "黑树树苗",
+          "color": "#293123"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:uberous_soil",
+      "name": "肥沃泥土",
+      "color": "#50330c",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:uncrafting_table",
+      "name": "拆解台",
+      "color": "#813517",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:underbrick",
+      "name": "地下砖",
+      "color": "#6c5f4a",
+      "alpha": 1.0,
+      "variants": [
+        {
+          "name": "抛光地下砖",
+          "color": "#645741"
+        },
+        {
+          "name": "碎裂地下砖",
+          "color": "#6d614b"
+        },
+        {
+          "name": "青苔地下砖",
+          "color": "#6e644c"
+        }
+      ]
+    },
+    {
+      "uid": "twilightforest:unripe_trollber",
+      "name": "没熟的巨魔莓",
+      "color": "#30334e",
+      "alpha": 1.0
+    },
+    {
+      "uid": "twilightforest:wispy_cloud",
+      "name": "薄云",
+      "color": "#fcfcfc",
+      "alpha": 1.0
+    }
+  ]
+}

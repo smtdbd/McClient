@@ -1,0 +1,18 @@
+{
+  "id": "三水_-543,46,607",
+  "name": "三水",
+  "icon": "waypoint-normal.png",
+  "x": -543,
+  "y": 46,
+  "z": 607,
+  "r": 93,
+  "g": 214,
+  "b": 24,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

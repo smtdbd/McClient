@@ -1,0 +1,112 @@
+{
+  "settings": {
+    "locale": "zh-cn",
+    "showMenu": true,
+    "channel": "release",
+    "enableAdvanced": true
+  },
+  "launcherVersion": {
+    "name": "2.1.3674",
+    "format": 21,
+    "profilesFormat": 2
+  },
+  "clientToken": "23645c67b491ccf2fe8c6365d05d86a5",
+  "profiles": {
+    "e5ed62de9ce7482a591ee30f696c2016": {
+      "type": "latest-release",
+      "lastUsed": "1970-01-01T00:00:00.001Z"
+    },
+    "1198d61294b345afa83cda6f0b0e0de4": {
+      "type": "latest-snapshot",
+      "lastUsed": "1970-01-01T00:00:00.000Z"
+    },
+    "5f4832112c371ac0dfeef5663179b26c": {
+      "name": "forge 1.12.2",
+      "type": "custom",
+      "created": "2019-05-21T10:13:00.535Z",
+      "lastUsed": "2019-06-07T01:14:55.240Z",
+      "lastVersionId": "1.12.2",
+      "gameDir": "C:\\Users\\Administrator\\AppData\\Roaming\\.minecraft\\versions\\1.12.2 forge"
+    },
+    "forge": {
+      "name": "forge",
+      "type": "custom",
+      "created": "2019-05-21T03:23:54.414Z",
+      "lastUsed": "2019-05-21T06:58:25.177Z",
+      "lastVersionId": "1.12-forge1.12-14.21.1.2415"
+    },
+    "92990cf9145e7c8af6bf2ea2d5d9d048": {
+      "name": "1.12.2-forge1.12.2-14.23.3.2702",
+      "type": "custom",
+      "created": "2019-05-21T10:19:06.274Z",
+      "lastUsed": "2019-05-21T12:22:17.797Z",
+      "lastVersionId": "1.12.2-forge1.12.2-14.23.3.2702",
+      "gameDir": "C:\\Users\\Administrator\\AppData\\Roaming\\.minecraft"
+    },
+    "679ddc4774a273d50f5304aba95f0833": {
+      "name": "",
+      "type": "custom",
+      "created": "2019-05-21T09:49:17.044Z",
+      "lastUsed": "2019-05-21T10:15:36.494Z",
+      "lastVersionId": "1.12.2"
+    },
+    "3e8e54c4bd9d4d3ed7755f957cfd22c4": {
+      "name": "1.12.1 new",
+      "type": "custom",
+      "created": "2018-12-07T01:35:17.830Z",
+      "lastUsed": "2019-05-21T03:24:29.268Z",
+      "lastVersionId": "1.12.1",
+      "gameDir": "G:\\1.12.1"
+    },
+    "9b135f426881d3ac72b8fa7e87602141": {
+      "name": "",
+      "type": "custom",
+      "created": "2019-05-21T12:35:58.827Z",
+      "lastUsed": "2019-06-20T13:36:11.964Z",
+      "lastVersionId": "1.12.2-forge1.12.2-14.23.5.2838",
+      "gameDir": "C:\\Users\\Administrator\\AppData\\Roaming\\.minecraft\\versions\\1.12.2-forge1.12.2-14.23.5.2838"
+    },
+    "OptiFine": {
+      "name": "OptiFine",
+      "type": "custom",
+      "created": "2019-06-07T09:18:59.328Z",
+      "lastUsed": "2020-07-22T11:02:13.460Z",
+      "lastVersionId": "1.12.2-OptiFine_HD_U_F5",
+      "icon": "data:image/png;base64,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"
+    },
+    "1.12-ShadersMod": {
+      "name": "1.12-ShadersMod",
+      "type": "custom",
+      "created": "2019-06-07T01:36:40.942Z",
+      "lastUsed": "2019-06-07T01:37:07.215Z",
+      "lastVersionId": "1.12-ShadersMod2.7.0"
+    }
+  },
+  "analyticsFailcount": 0,
+  "analyticsToken": "a58e6e6525da286a859f47dc9017ea16",
+  "authenticationDatabase": {
+    "7c6c24a248c90c4ba8756654f449e95b": {
+      "accessToken": "326800f488a44d11bb2c2ca8586d20bc",
+      "username": "546185700@qq.com",
+      "properties": [
+        {
+          "userId": "7c6c24a248c90c4ba8756654f449e95b",
+          "profileId": "",
+          "name": "preferredLanguage",
+          "value": "zh_CN",
+          "languageCode": "zh_CN"
+        }
+      ],
+      "profiles": {
+        "d4a0f9540f324ede81c2e4f98f315bb1": {
+          "displayName": "YogSaron"
+        }
+      }
+    }
+  },
+  "selectedProfile": "OptiFine",
+  "selectedUser": {
+    "account": "7c6c24a248c90c4ba8756654f449e95b",
+    "profile": "d4a0f9540f324ede81c2e4f98f315bb1"
+  }
+}

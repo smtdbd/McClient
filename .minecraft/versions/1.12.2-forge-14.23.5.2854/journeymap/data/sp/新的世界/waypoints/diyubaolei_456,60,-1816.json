@@ -1,0 +1,18 @@
+{
+  "id": "diyubaolei_456,60,-1816",
+  "name": "diyubaolei",
+  "icon": "waypoint-normal.png",
+  "x": 456,
+  "y": 60,
+  "z": -1816,
+  "r": 166,
+  "g": 4,
+  "b": 151,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

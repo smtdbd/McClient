@@ -1,0 +1,18 @@
+{
+  "id": "小龙_-207,100,615",
+  "name": "小龙",
+  "icon": "waypoint-normal.png",
+  "x": -207,
+  "y": 100,
+  "z": 615,
+  "r": 154,
+  "g": 153,
+  "b": 111,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    7
+  ],
+  "persistent": true
+}

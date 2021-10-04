@@ -1,0 +1,1 @@
+<LocalConfig xmlns="http://schemas.datacontract.org/2004/07/BakaXL.Configs" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><BakaVer>BakaVer [V.3.012]</BakaVer><CheckVersionFolder>true</CheckVersionFolder><ClientToken>ee13bd8c-e591-437b-9f55-d902799310ab</ClientToken><GameCore>1.12.2-forge-14.23.5.2854</GameCore><UpdateTunnel>Sloth</UpdateTunnel></LocalConfig>

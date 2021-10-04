@@ -1,0 +1,18 @@
+{
+  "id": "好看的峡谷_-1008,113,-622",
+  "name": "好看的峡谷",
+  "icon": "waypoint-normal.png",
+  "x": -1008,
+  "y": 113,
+  "z": -622,
+  "r": 63,
+  "g": 6,
+  "b": 104,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

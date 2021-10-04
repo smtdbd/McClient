@@ -1,0 +1,1071 @@
+[18:40:23] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:40:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:40:23] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[18:40:23] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_251
+[18:40:23] [main/INFO] [FML]: Searching H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\mods for mods
+[18:40:23] [main/INFO] [FML]: Searching H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\mods\1.12.2 for mods
+[18:40:23] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_E3.jar
+[18:40:23] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_E3_MOD.jar
+[18:40:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:40:23] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[18:40:23] [main/WARN] [LaunchWrapper]: Tweak class name optifine.OptiFineForgeTweaker has already been visited -- skipping
+[18:40:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:40:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:40:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:40:23] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[18:40:23] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[18:40:23] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[18:40:23] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[18:40:23] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ZIP file: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\mods\OptiFine_1.12.2_HD_U_E3.jar
+[18:40:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:40:25] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:40:25] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[18:40:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:40:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:40:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:40:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:40:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:40:25] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[18:40:25] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:40:26] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: YogSaron
+[18:40:29] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Forge ***
+[18:40:29] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18:40:30] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Vanilla ***
+[18:40:30] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[18:40:30] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] 
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_E3
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] Build: 20181210-121000
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_251, Oracle Corporation
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] OpenGL: GeForce RTX 2070 SUPER/PCIe/SSE2, version 4.6.0 NVIDIA 456.71, NVIDIA Corporation
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 32768x32768
+[18:40:31] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 456.71
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: GeForce RTX 2070 SUPER/PCIe/SSE2
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[18:40:31] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Loaded shaderpack: BSL Standard v7.0p1.zip
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Worlds: -1, 1
+[18:40:31] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[18:40:31] [Client thread/WARN] [Config]: [OptiFine] Invalid shader option: FogRange
+[18:40:31] [Client thread/WARN] [LLibrary Core]: Unable to call Core API! It has not been initialized yet!
+[18:40:31] [Client thread/WARN] [LLibrary Core]: Unable to call Core API! It has not been initialized yet!
+[18:40:31] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_E3, enabling compatibility features
+[18:40:31] [Client thread/INFO] [FML]: Could not load splash.properties, will create a default one
+[18:40:31] [VersionCheck/INFO] [Config]: [OptiFine] Version found: G5
+[18:40:31] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 63854024 bytes (60 MB) / 259522560 bytes (247 MB) up to 7424770048 bytes (7080 MB)
+	JVM Flags: 2 total; -Xincgc -Xmx7164M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 456.71' Renderer: 'GeForce RTX 2070 SUPER/PCIe/SSE2'
+[18:40:31] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[18:40:31] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:40:32] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:40:32] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:40:32] [Client thread/INFO] [FML]: Searching H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\mods for mods
+[18:40:32] [Client thread/INFO] [FML]: Searching H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\mods\1.12.2 for mods
+[18:40:33] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[18:40:33] [Client thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12-7.0.31.818
+[18:40:34] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 194179500 nanos
+[18:40:34] [Client thread/WARN] [FML]: Mod waystones is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.0.67
+[18:40:34] [Client thread/INFO] [FML]: Forge Mod Loader has identified 24 mods to load
+[18:40:34] [Client thread/INFO] [FML]: FML has found a non-mod file codecjlayermp3-1.0.0-SNAPSHOT.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:40:34] [Client thread/INFO] [FML]: FML has found a non-mod file jlayer-1.0.1.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:40:34] [Client thread/INFO] [FML]: FML has found a non-mod file mods.zip in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:40:34] [Client thread/INFO] [FML]: FML has found a non-mod file nashorn.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:40:34] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, codechickenlib, conarm, ctgui, crafttweaker, crafttweakerjei, infernalmobs, ironchest, jei, journeymap, levelup2, mantle, plustic, tconstruct, thaumcraft, torohealthmod, touhou_little_maid, waystones, weaponlevels, llibrary] at CLIENT
+[18:40:34] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, codechickenlib, conarm, ctgui, crafttweaker, crafttweakerjei, infernalmobs, ironchest, jei, journeymap, levelup2, mantle, plustic, tconstruct, thaumcraft, torohealthmod, touhou_little_maid, waystones, weaponlevels, llibrary] at SERVER
+[18:40:35] [Client thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[18:40:35] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[18:40:35] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[18:40:35] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[18:40:35] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[18:40:35] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[18:40:35] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
+[18:40:35] [Client thread/INFO] [tconstruct]: Preparing to take over the world
+[18:40:36] [Client thread/WARN] [FML]: =============================================================
+[18:40:36] [Client thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[18:40:36] [Client thread/WARN] [FML]: Offender: jdk/nashorn/internal/objects/Global.exit(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+[18:40:36] [Client thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[18:40:36] [Client thread/WARN] [FML]: =============================================================
+[18:40:37] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Baubles, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Construct's Armory, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CraftTweaker JEI Support, FMLFileResourcePack:Infernal Mobs, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Level Up! Reloaded, FMLFileResourcePack:Mantle, FMLFileResourcePack:PlusTiC, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:ToroHealth Damage Indicators, FMLFileResourcePack:Touhou Little Maid, FMLFileResourcePack:Waystones, FMLFileResourcePack:Weapon Levels, FMLFileResourcePack:LLibrary
+[18:40:37] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:40:37] [Client thread/INFO] [FML]: Found 1255 ObjectHolder annotations
+[18:40:37] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:40:37] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:40:37] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:40:37] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: java.lang.NoClassDefFoundError: journeymap/client/api/display/Waypoint
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at java.lang.Class.forName0(Native Method)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at java.lang.Class.forName(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at journeymap.client.api.util.PluginHelper.preInitPlugins(PluginHelper.java:75)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at journeymap.client.JourneymapClient.preInitialize(JourneymapClient.java:219)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at journeymap.common.Journeymap.preInitialize(Journeymap.java:86)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[18:40:38] [Client thread/INFO] [STDERR]: [journeymap.client.JourneymapClient:preInitialize:223]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[18:40:38] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:-1]: Caused by: java.lang.ClassNotFoundException: journeymap.client.api.display.Waypoint
+[18:40:38] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:-1]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+[18:40:38] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:-1]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:-1]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[18:40:38] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:-1]: 	... 45 more
+[18:40:38] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:-1]: Caused by: java.lang.NullPointerException
+[18:40:38] [Client thread/INFO] [FML]: OBJLoader: Domain thaumcraft has been added.
+[18:40:38] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `enderference`, expected `plustic`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:38] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `insatiable`, expected `plustic`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:38] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `magnetic`, expected `plustic`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:38] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `momentum`, expected `plustic`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:38] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `dot`, expected `plustic`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:38] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `splinter`, expected `plustic`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `conarm` for name `superhotpotion`, expected `plustic`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [pool-3-thread-1/INFO] [touhou_little_maid]: Obtaining 5023067663 NetEase cloud music playlist information
+[18:40:39] [Client thread/INFO] [FML]: OBJLoader: Domain touhou_little_maid has been added.
+[18:40:39] [Download-Info-Json-File/INFO] [touhou_little_maid]: Downloading info.json file...
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: java.io.IOException: Invalid Http response
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at java.security.AccessController.doPrivileged(Native Method)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at org.apache.commons.io.FileUtils.copyURLToFile(FileUtils.java:1506)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager.lambda$downloadAndReadInfoJsonFile$1(InfoGetManager.java:95)
+[18:40:39] [Download-Info-Json-File/INFO] [STDERR]: [com.github.tartaricacid.touhoulittlemaid.client.download.InfoGetManager:lambda$downloadAndReadInfoJsonFile$1:120]: 	at java.lang.Thread.run(Unknown Source)
+[18:40:39] [pool-3-thread-1/INFO] [touhou_little_maid]: 5023067663 NetEase cloud music information obtained successfully
+[18:40:39] [Client thread/INFO] [LLibrary]: TabulaModelHandler: Domain llibrary has been added.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:39] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:40] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[18:40:40] [Forge Version Check/INFO] [forge.VersionCheck]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.12.2
+[18:40:40] [Client thread/INFO] [FML]: Applying holder lookups
+[18:40:40] [Client thread/INFO] [FML]: Holder lookups applied
+[18:40:40] [Client thread/INFO] [FML]: Applying holder lookups
+[18:40:40] [Client thread/INFO] [FML]: Holder lookups applied
+[18:40:41] [Client thread/INFO] [FML]: Applying holder lookups
+[18:40:41] [Client thread/INFO] [FML]: Holder lookups applied
+[18:40:41] [Client thread/INFO] [FML]: Applying holder lookups
+[18:40:41] [Client thread/INFO] [FML]: Holder lookups applied
+[18:40:41] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:40:41] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:40:41] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[18:40:41] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Default
+[18:40:41] [Forge Version Check/INFO] [forge.VersionCheck]: [crafttweaker] Found status: BETA Target: null
+[18:40:41] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/gegy1000/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
+[18:40:41] [pool-4-thread-1/ERROR] [LLibrary]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Shall we play a game?
+
+Time: 9/30/21 6:40 PM
+Description: Failed to receive data from URL: https://gist.githubusercontent.com/gegy1000/7a6d39cf7a2c1f794ffb9037e8146adc/raw/llibrary_patrons.json
+
+java.io.FileNotFoundException: https://gist.githubusercontent.com/gegy1000/7a6d39cf7a2c1f794ffb9037e8146adc/raw/llibrary_patrons.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at net.ilexiconn.llibrary.server.util.WebUtils.readURL(WebUtils.java:60)
+	at net.ilexiconn.llibrary.server.util.WebUtils.lambda$readURLAsync$0(WebUtils.java:105)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:111)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:58)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:75)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 144635176 bytes (137 MB) / 438243328 bytes (417 MB) up to 7424770048 bytes (7080 MB)
+	JVM Flags: 2 total; -Xincgc -Xmx7164M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 Optifine OptiFine_1.12.2_HD_U_E3 24 mods loaded, 24 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                 | Version           | Source                                        | Signature                                |
+	|:----- |:------------------ |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft          | 1.12.2            | minecraft.jar                                 | None                                     |
+	| LCH   | mcp                | 9.42              | minecraft.jar                                 | None                                     |
+	| LCH   | FML                | 8.0.99.99         | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge              | 14.23.5.2854      | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | baubles            | 1.5.2             | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LCH   | codechickenlib     | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | crafttweaker       | 4.1.20            | CraftTweaker2-1.12-4.1.20.574.jar             | None                                     |
+	| LCH   | mantle             | 1.12-1.3.3.55     | Mantle-1.12-1.3.3.55.jar                      | None                                     |
+	| LCH   | jei                | 4.15.0.268        | jei_1.12.2-4.15.0.268.jar                     | None                                     |
+	| LCH   | tconstruct         | 1.12.2-2.13.0.183 | TConstruct-1.12.2-2.13.0.183.jar              | None                                     |
+	| LCH   | conarm             | 1.2.5.9           | conarm-1.12.2-1.2.5.9.jar                     | 2484ef4d131fdc0dca0647aa21b7b944ddb935a1 |
+	| LCH   | ctgui              | 1.0.0             | CraftTweaker2-1.12-4.1.20.574.jar             | None                                     |
+	| LCH   | crafttweakerjei    | 2.0.3             | CraftTweaker2-1.12-4.1.20.574.jar             | None                                     |
+	| LCH   | infernalmobs       | 1.7.5             | InfernalMobs-1.12.2.jar                       | None                                     |
+	| LCH   | ironchest          | 1.12-7.0.31.818   | ironchest-1.12-7.0.31.818.jar                 | None                                     |
+	| LCH   | journeymap         | 1.12-5.4.9        | journeymap-1.12-5.4.9.jar                     | None                                     |
+	| LCH   | levelup2           | ${version}        | Level+Up%21+2-1.1.5-1.12.jar                  | None                                     |
+	| LCH   | thaumcraft         | 6.1.BETA26        | Thaumcraft-1.12.2-6.1.BETA26.jar              | None                                     |
+	| LCH   | plustic            | 8.0.0.1           | plustic-8.0.0.1.jar                           | None                                     |
+	| LCH   | torohealthmod      | 1.12.2-11         | torohealth-1.12.2-11.jar                      | None                                     |
+	| LCH   | touhou_little_maid | 1.2.2             | touhoulittlemaid-1.12.2-1.2.2-release.jar     | None                                     |
+	| LCH   | waystones          | 4.0.67            | Waystones_1.12.2-4.0.67.jar                   | None                                     |
+	| LCH   | weaponlevels       | 2.4.0             | weaponlevels-2.4.0.jar                        | None                                     |
+	| LCH   | llibrary           | 1.7.18            | LLibrary-1.12.2.jar                           | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+
+	OptiFine Version: OptiFine_1.12.2_HD_U_E3
+	OptiFine Build: 20181210-121000
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: BSL Standard v7.0p1.zip
+	OpenGlVersion: 4.6.0 NVIDIA 456.71
+	OpenGlRenderer: GeForce RTX 2070 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12
+[18:40:41] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: thaumcraft:runicshieldcharge
+[18:40:41] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[18:40:42] [Thread-8/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[18:40:42] [Thread-8/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:40:42] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[18:40:42] [Thread-8/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[18:40:42] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[18:40:42] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/arcane_workbench_charger.mtl'. The color defined by key 'Ks' will not be applied!
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/pillar.mtl'. The color defined by key 'Ks' will not be applied!
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/thaumatorium.mtl'. The color defined by key 'Ks' will not be applied!
+[18:40:43] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model conarm:parts/armor_plate.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model conarm:parts/armor_trim.tmat#inventory
+[18:40:43] [Client thread/ERROR] [conarm]: Could not load multimodel conarm:armor/boots.conarm#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model conarm:parts/boots_core.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model conarm:parts/chest_core.tmat#inventory
+[18:40:43] [Client thread/ERROR] [conarm]: Could not load multimodel conarm:armor/chestplate.conarm#inventory
+[18:40:43] [Client thread/ERROR] [conarm]: Could not load multimodel conarm:armor/helmet.conarm#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model conarm:parts/helmet_core.tmat#inventory
+[18:40:43] [Client thread/ERROR] [conarm]: Could not load multimodel conarm:armor/leggings.conarm#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model conarm:parts/leggings_core.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model conarm:parts/polishing_kit.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model plustic:parts/battery_cell.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel plustic:tools/katana.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel plustic:tools/laser_gun.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model plustic:parts/laser_medium.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model plustic:parts/pipe_piece.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/arrow.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/arrow_head.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/arrow_shaft.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/axe_head.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/battlesign.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/binding.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/bolt.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:parts/bolt_core.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/bow_limb.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/bow_string.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/broad_axe_head.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/broadsword.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/cleaver.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/cross_guard.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/crossbow.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/excavator.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/excavator_head.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/fletching.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/frypan.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/hammer.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/hammer_head.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/hand_guard.tmat#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/hatchet.tcon#inventory
+[18:40:43] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/kama.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/kama_head.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/knife_blade.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/large_plate.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/large_sword_blade.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/longbow.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/longsword.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/lumberaxe.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/mattock.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:moms_spaghetti.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/pan_head.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/pick_head.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/pickaxe.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/rapier.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/scythe.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/scythe_head.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/shard.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/sharpening_kit.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/shortbow.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/shovel.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/shovel_head.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/shuriken.tcon#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/sign_head.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/sword_blade.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/tool_rod.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/tough_binding.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/tough_tool_rod.tmat#inventory
+[18:40:44] [Client thread/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/wide_guard.tmat#inventory
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/golembuilder.mtl'. The color defined by key 'Ks' will not be applied!
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'body' in 'thaumcraft:models/item/scanner.mtl'. The color defined by key 'Ks' will not be applied!
+[18:40:44] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[18:40:44] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'pane' in 'thaumcraft:models/item/scanner.mtl'. The color defined by key 'Ks' will not be applied!
+[18:40:44] [Client thread/INFO] [Config]: [OptiFine] Mipmap levels: 4
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] Multitexture: false
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] Multipass connected textures: false
+[18:40:45] [Client thread/INFO] [Config]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18:40:45] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load thaumcraft:textures/items\scanscreen.png.png, java.io.FileNotFoundException
+[18:40:45] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:textures/\thaumcraft\thaumcraft110\src\main\resources\assets\thaumcraft\textures\blocks\thaumatorium.png.png, java.io.FileNotFoundException
+[18:40:47] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:textures/\thaumcraft\thaumcraft110\bin\assets\thaumcraft\textures\blocks\golembuilder.png.png, java.io.FileNotFoundException
+[18:40:47] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:textures/\thaumcraft\thaumcraft110\src\main\resources\assets\thaumcraft\textures\blocks\arcane_workbench_charger.png.png, java.io.FileNotFoundException
+[18:40:47] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load thaumcraft:textures/items\scanner.png.png, java.io.FileNotFoundException
+[18:40:47] [Client thread/INFO] [Config]: [OptiFine] Custom loader sprites: 2983
+[18:40:47] [Client thread/INFO] [Config]: [OptiFine] Sprite dependencies: 4018
+[18:40:47] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 2048x2048 textures-atlas
+[18:40:47] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] allocateTextureMap 4 2048 2048 
+[18:40:49] [Client thread/INFO] [Config]: [OptiFine] Animated sprites: 74
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Touhou little maid mod's model is loading...
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hakurei_reimu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hakurei_reimu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kirisame_marisa.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/rumia.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/daiyousei.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/cirno.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hong_meiling.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/koakuma.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/patchouli_knowledge.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/izayoi_sakuya.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/remilia_scarlet.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/flandre_scarlet.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/letty_whiterock.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/chen.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/alice_margatroid.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/lily_white.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/lily_black.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/lunasa_prismriver.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/merlin_prismriver.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/lyrica_prismriver.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/konpaku_youmu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/saigyouji_yuyuko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yakumo_ran.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yukari_yakumo.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/ibuki_suika.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/wriggle_nightbug.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/mystia_lorelei.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/keine_kamishirasawa.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/keine_kamishirasawa_2.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/tewi_inaba.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/reisen_udongein_inaba.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yagokoro_eirin.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/houraisan_kaguya.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/fujiwara_no_mokou.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/syameimaru_aya.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/medicine_melancholy.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kazami_yuka.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/onozuka_komachi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/shikieiki_yamaxanadu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/aki_sizuha.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/aki_sizuha_2.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/minoriko_aki.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kagiyama_hina.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kawasiro_nitori.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/inubashiri_momizi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kochiya_sanae.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yasaka_kanako.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/moriya_suwako.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/nagae_iku.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hinanawi_tenshi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kisume.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kurodani_yamame.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/mizuhashi_parsee.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hoshiguma_yugi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/komeiji_satori.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kaenbyou_rin.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/reiuji_utsuho.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/komeiji_koishi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/nazrin.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/tatara_kogasa.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kumoi_ichirin.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/murasa_minamitsu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/toramaru_shou.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hijiri_byakuren.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/houjuu_nue.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kasodani_kyouko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/miyako_yoshika.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kaku_seiga.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/mononobe_no_futo.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/toyosatomimi_no_miko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/soga_no_toziko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hutatsuiwa_mamizou.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/wakasagihime.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/sekibanki.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/imaizumi_kagerou.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/tsukumo_yatsuhashi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/tsukumo_benben.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kijin_seija.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/sukuna_shinmyoumaru.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/horikawa_raiko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/seiran.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/ringo.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/doremy_sweet.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kisin_sagume.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/clownpiece.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/junko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hecatia_lapislazuli.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/eternity_larva.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/sakata_nemuno.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/komano_aunn.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yatadera_narumi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/nishida_satono.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/teireid_mai.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/matara_okina.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/ebisu_eika.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/ushizaki_urumi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/niwatari_kutaka.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kitcho_yachie.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/joutougu_mayumi.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/haniyasushin_keiki.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kurokoma_saki.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/sunny_milk.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/tokiko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/luna_child.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/star_sapphire.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/watatsuki_no_toyohime.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/watatsuki_no_yorihime.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hieda_no_akyuu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/ibaraki_kasen.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/ibaraki_kasen_2.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/motoori_kosuzu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/usami_renko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/maribel_hearn.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/usami_sumireko.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/hata_no_kokoro.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/himekaidou_hatate.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yorigami_jyoon.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yorigami_shion.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/miyoi_okunoda.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/mima.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/alice.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/yumemi_okazaki.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/moesumika.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Touhou little maid mod's model is loaded
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Touhou little maid mod's model is loading...
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/cushion.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/class_desk.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/class_chair.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/kotatsu.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/play_station.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/tall_stool.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/low_stool.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/barbecue_booth.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/barbecue_booth_2.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/long_stool.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/square_table.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/mahjong_table.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/beach_chair.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/parasol.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/water_wheel.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/saisen_bako.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/well.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/torii.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/torii_2.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/torii_3.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/ema.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/anti_collision_bucket.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/park_bench.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/rinnosuke_children_toys.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/moto.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded model: touhou_little_maid:models/entity/bowl.json
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Touhou little maid mod's model is loaded
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Touhou little maid mod's sound info is loading...
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Loaded sound info from: touhou_little_maid
+[18:40:49] [Client thread/INFO] [touhou_little_maid]: Touhou little maid mod's sound info is loaded
+[18:40:52] [Client thread/ERROR] [FML]: Parsing error loading recipe touhou_little_maid:memorizable_gensokyo
+com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:538) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(Unknown Source) [?:1.8.0_251]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[18:40:52] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:40:52] [Client thread/INFO] [THAUMCRAFT]: Checking for mod & oredict compatibilities
+[18:40:52] [Client thread/INFO] [THAUMCRAFT]: Adding entities to MFR safari net blacklist.
+[18:40:52] [Client thread/INFO] [FML]: Applying holder lookups
+[18:40:52] [Client thread/INFO] [FML]: Holder lookups applied
+[18:40:52] [Client thread/INFO] [jei]: Created: 128x256 textures-atlas
+[18:40:53] [Client thread/INFO] [infernalmobs]: InfernalMobsCore load() completed! Modifiers ready: 27, config file at: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\config\infernalmobs.cfg
+[18:40:53] [Client thread/INFO] [journeymap]: JourneyMap log initialized.
+[18:40:53] [Client thread/INFO] [journeymap]: initialize ENTER
+[18:40:53] [Client thread/INFO] [journeymap]: [ClientAPI] built with JourneyMap API 1.3-SNAPSHOT
+[18:40:53] [Client thread/WARN] [journeymap]: Plugin discovery never occurred.
+java.lang.IllegalStateException: null
+	at journeymap.client.api.util.PluginHelper.initPlugins(PluginHelper.java:132) [PluginHelper.class:1.12-5.4.9]
+	at journeymap.client.JourneymapClient.initialize(JourneymapClient.java:268) [JourneymapClient.class:1.12-5.4.9]
+	at journeymap.common.Journeymap.initialize(Journeymap.java:98) [Journeymap.class:1.12-5.4.9]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[18:40:53] [Client thread/INFO] [journeymap]: initialize EXIT, elapsed count 0 avg ?ms
+[18:40:53] [Client thread/INFO] [touhou_little_maid]: Loaded 5 Custom Spell Cards
+[18:40:53] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: java.lang.UnsupportedOperationException: JsonNull
+[18:40:53] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at com.google.gson.JsonElement.getAsString(JsonElement.java:191)
+[18:40:53] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.parse(ModDescriptionEnhancer.java:103)
+[18:40:53] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.lambda$init$0(ModDescriptionEnhancer.java:82)
+[18:40:53] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at java.lang.Thread.run(Unknown Source)
+[18:40:53] [Client thread/INFO] [touhou_little_maid]: Loaded 20 Hata Textures
+[18:40:53] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:40:53] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:40:53] [Client thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[18:40:54] [Client thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 165.6991 ms
+[18:40:54] [Client thread/INFO] [journeymap]: Added entity icons from journeymap:icon/entity. Success: false
+[18:40:54] [Client thread/INFO] [journeymap]: Preloaded theme textures: 58
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 22 research entries from thaumcraft:research/alchemy
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 5 research entries from thaumcraft:research/eldritch
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/basics
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 23 research entries from thaumcraft:research/auromancy
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 12 research entries from thaumcraft:research/scans
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/artifice
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 17 research entries from thaumcraft:research/infusion
+[18:40:54] [Client thread/INFO] [THAUMCRAFT]: Loaded 29 research entries from thaumcraft:research/golemancy
+[18:40:54] [JM-VersionCheck-1/ERROR] [journeymap]: Could not check version URL
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_251]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_251]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at java.net.URL.openStream(Unknown Source) ~[?:1.8.0_251]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:128) [VersionCheck$1.class:1.12-5.4.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_251]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[18:40:55] [Client thread/INFO] [jei]: Starting JEI...
+[18:40:55] [Client thread/INFO] [jei]: Registering recipe categories...
+[18:40:55] [Client thread/INFO] [jei]: Registering recipe categories took 28.91 ms
+[18:40:55] [Client thread/INFO] [jei]: Registering mod plugins...
+[18:40:55] [Client thread/INFO] [jei]: Registering mod plugins took 247.1 ms
+[18:40:55] [Client thread/INFO] [jei]: Building recipe registry...
+[18:40:55] [Client thread/INFO] [jei]: Building recipe registry took 96.13 ms
+[18:40:55] [Client thread/INFO] [jei]: Building ingredient list...
+[18:40:55] [Client thread/INFO] [jei]: Building ingredient list took 49.52 ms
+[18:40:55] [Client thread/INFO] [jei]: Building ingredient filter...
+[18:40:56] [Client thread/INFO] [jei]: Building ingredient filter took 295.5 ms
+[18:40:56] [Client thread/INFO] [jei]: Building bookmarks...
+[18:40:56] [Client thread/INFO] [jei]: Building bookmarks took 2.980 ms
+[18:40:56] [Client thread/INFO] [jei]: Building runtime...
+[18:40:56] [Client thread/INFO] [jei]: Building runtime took 79.25 ms
+[18:40:56] [Client thread/INFO] [jei]: Starting JEI took 1.071 s
+[18:40:56] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 24 mods
+[18:40:56] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[18:40:56] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[18:40:56] [Client thread/INFO] [Config]: [OptiFine] *** Reloading custom textures ***
+[18:41:15] [Netty Client IO #1/INFO] [FML]: Attempting connection with missing mods [ctgui, torohealthmod] at SERVER
+[18:41:16] [Client thread/ERROR] [net.minecraft.client.network.ServerPinger]: Can't ping dxs.chaowan.me:35803: Internal Exception: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+[18:41:22] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to a.tpmc.top, 26220
+[18:41:22] [Netty Client IO #3/INFO] [FML]: Server protocol version 2
+[18:41:22] [Netty Client IO #3/INFO] [FML]: Attempting connection with missing mods [ctgui, torohealthmod] at SERVER
+[18:41:22] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
+[18:41:23] [Client thread/INFO] [FML]: Applying holder lookups
+[18:41:23] [Client thread/INFO] [FML]: Holder lookups applied
+[18:41:23] [Netty Client IO #3/INFO] [FML]: [Netty Client IO #3] Client side modded connection established
+[18:41:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] YogSaron joined the game
+[18:41:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] 新的§eOptiFine§f版本现已可用：§e§nHD Ultra G5§r§f
+[18:41:25] [Netty Client IO #3/INFO] [tconstruct-Config]: Syncing Config with Server
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: shadow
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_basic
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map resolution: 2048
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map distance: 256.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_textured
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_skybasic
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_skytextured
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_clouds
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex0 format: RGBA16
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex1 format: RGBA16
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex2 format: RGB16
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex3 format: RGB16
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex4 format: RGB8
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex5 format: RGB8
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex7 format: RGBA8
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex6 format: RGBA8
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_terrain
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_entities
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_armor_glint
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_spidereyes
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map resolution: 2048
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map distance: 256.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_hand
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_weather
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map resolution: 2048
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map distance: 256.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: gbuffers_water
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map resolution: 2048
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map distance: 256.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Sun path rotation: -40.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Eye brightness halflife: 10.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Noise texture enabled
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Noise texture resolution: 1024
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Hardware shadow filtering enabled.
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Dryness halflife: 10.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Wetness halflife: 15.0
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: composite
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow map resolution: 2048
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex0 mipmap enabled
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: composite1
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex1 mipmap enabled
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: composite2
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] colortex0 mipmap enabled
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: composite3
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: composite4
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Program loaded: final
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedColorBuffers: 8
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedDepthBuffers: 2
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedShadowColorBuffers: 1
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedShadowDepthBuffers: 2
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedColorAttachs: 8
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedDrawBuffers: 5
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Framebuffer created.
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Shadow framebuffer created.
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Reset world renderers
+[18:41:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Reset model renderers
+[18:41:25] [Client thread/ERROR] [journeymap]: Unexpected error: java.nio.file.InvalidPathException: Illegal char <:> at index 85: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220\DIM0
+	at sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.io.File.toPath(Unknown Source)
+	at journeymap.client.model.RegionCoord.getDimPath(RegionCoord.java:70)
+	at journeymap.client.model.RegionCoord.<init>(RegionCoord.java:38)
+	at journeymap.client.io.RegionImageHandler.getTileDrawSteps(RegionImageHandler.java:352)
+	at journeymap.client.render.map.Tile.updateTexture(Tile.java:128)
+	at journeymap.client.render.map.Tile.create(Tile.java:70)
+	at journeymap.client.render.map.GridRenderer.findTile(GridRenderer.java:714)
+	at journeymap.client.render.map.GridRenderer.center(GridRenderer.java:242)
+	at journeymap.client.ui.minimap.MiniMap.initGridRenderer(MiniMap.java:116)
+	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:603)
+	at journeymap.client.ui.minimap.MiniMap.setMiniMapProperties(MiniMap.java:131)
+	at journeymap.client.ui.minimap.MiniMap.<init>(MiniMap.java:78)
+	at journeymap.client.ui.UIManager.<init>(UIManager.java:51)
+	at journeymap.client.ui.UIManager.<clinit>(UIManager.java:39)
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+[18:41:25] [Client thread/ERROR] [journeymap]: Unexpected error during onRenderOverlayEarly: java.lang.ExceptionInInitializerError (SUPPRESSED)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: java.lang.ExceptionInInitializerError
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: Caused by: java.nio.file.InvalidPathException: Illegal char <:> at index 85: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220\DIM0
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at sun.nio.fs.WindowsPath.parse(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at java.io.File.toPath(Unknown Source)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.model.RegionCoord.getDimPath(RegionCoord.java:70)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.model.RegionCoord.<init>(RegionCoord.java:38)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.io.RegionImageHandler.getTileDrawSteps(RegionImageHandler.java:352)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.render.map.Tile.updateTexture(Tile.java:128)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.render.map.Tile.create(Tile.java:70)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.render.map.GridRenderer.findTile(GridRenderer.java:714)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.render.map.GridRenderer.center(GridRenderer.java:242)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.ui.minimap.MiniMap.initGridRenderer(MiniMap.java:116)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:603)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.ui.minimap.MiniMap.setMiniMapProperties(MiniMap.java:131)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.ui.minimap.MiniMap.<init>(MiniMap.java:78)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.ui.UIManager.<init>(UIManager.java:60)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	at journeymap.client.ui.UIManager.<clinit>(UIManager.java:39)
+[18:41:25] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:checkErrors:58]: 	... 16 more
+[18:41:25] [Client thread/ERROR] [journeymap]: java.lang.ExceptionInInitializerError
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.nio.file.InvalidPathException: Illegal char <:> at index 85: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220\DIM0
+	at sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.io.File.toPath(Unknown Source)
+	at journeymap.client.model.RegionCoord.getDimPath(RegionCoord.java:70)
+	at journeymap.client.model.RegionCoord.<init>(RegionCoord.java:38)
+	at journeymap.client.io.RegionImageHandler.getTileDrawSteps(RegionImageHandler.java:352)
+	at journeymap.client.render.map.Tile.updateTexture(Tile.java:128)
+	at journeymap.client.render.map.Tile.create(Tile.java:70)
+	at journeymap.client.render.map.GridRenderer.findTile(GridRenderer.java:714)
+	at journeymap.client.render.map.GridRenderer.center(GridRenderer.java:242)
+	at journeymap.client.ui.minimap.MiniMap.initGridRenderer(MiniMap.java:116)
+	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:603)
+	at journeymap.client.ui.minimap.MiniMap.setMiniMapProperties(MiniMap.java:131)
+	at journeymap.client.ui.minimap.MiniMap.<init>(MiniMap.java:78)
+	at journeymap.client.ui.UIManager.<init>(UIManager.java:60)
+	at journeymap.client.ui.UIManager.<clinit>(UIManager.java:39)
+	... 16 more
+
+[18:41:26] [Client thread/ERROR] [journeymap]: Unexpected error during onRenderOverlayEarly: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager (SUPPRESSED)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[18:41:26] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[18:41:26] [Client thread/ERROR] [journeymap]: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+[18:41:26] [Client thread/ERROR] [journeymap]: CANNOT CREATE DATA DIRECTORY FOR WORLD: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220 (SUPPRESSED)
+[18:41:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] §eJourneyMap:§f 按下[§bJ§f]键
+[18:41:26] [Client thread/INFO] [journeymap]: JourneyMap: 按下[J]键
+[18:41:27] [Client thread/INFO] [Mantle]: Started loading book...
+[18:41:27] [Client thread/INFO] [Mantle]: Finished loading book
+[18:41:37] [Client thread/ERROR] [journeymap]: Unexpected error during onRenderOverlayEarly: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager (SUPPRESSED)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[18:41:37] [Client thread/INFO] [STDERR]: [journeymap.common.log.LogFormatter:toString:28]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[18:41:37] [Client thread/ERROR] [journeymap]: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+[18:41:37] [Client thread/ERROR] [journeymap]: CANNOT CREATE DATA DIRECTORY FOR WORLD: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220 (SUPPRESSED)
+[18:41:42] [Client thread/INFO] [FML]: Applying holder lookups
+[18:41:42] [Client thread/INFO] [FML]: Holder lookups applied
+[18:41:44] [Netty Client IO #4/INFO] [FML]: Attempting connection with missing mods [ctgui, torohealthmod] at SERVER
+[18:41:45] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[18:41:45] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[18:41:45] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

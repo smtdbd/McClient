@@ -1,0 +1,18 @@
+{
+  "id": "龙巢_-811,41,625",
+  "name": "龙巢",
+  "icon": "waypoint-normal.png",
+  "x": -811,
+  "y": 41,
+  "z": 625,
+  "r": 14,
+  "g": 100,
+  "b": 11,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    7
+  ],
+  "persistent": true
+}

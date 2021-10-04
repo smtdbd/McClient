@@ -1,0 +1,18 @@
+{
+  "id": "兔子家_-552,72,243",
+  "name": "兔子家",
+  "icon": "waypoint-normal.png",
+  "x": -552,
+  "y": 72,
+  "z": 243,
+  "r": 70,
+  "g": 100,
+  "b": 47,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

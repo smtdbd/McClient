@@ -1,0 +1,18 @@
+{
+  "id": "要塞_-1176,58,-552",
+  "name": "要塞",
+  "icon": "waypoint-normal.png",
+  "x": -1176,
+  "y": 58,
+  "z": -552,
+  "r": 95,
+  "g": 25,
+  "b": 166,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "传送门_-408,58,424",
+  "name": "传送门",
+  "icon": "waypoint-normal.png",
+  "x": -408,
+  "y": 58,
+  "z": 424,
+  "r": 39,
+  "g": 184,
+  "b": 214,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

@@ -1,0 +1,8 @@
+#Tue Apr 16 23:26:37 CST 2019
+CloudQuality=3
+AOHQ=true
+shadowMapResolution=4096
+MotionBlur=true
+LightShaft=2
+AOTranslucent=true
+WaterDistantWave=true

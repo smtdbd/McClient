@@ -1,0 +1,13 @@
+#Sat Aug 15 18:40:56 CST 2020
+Contrast=0.7
+RPSFormat=1
+LightShaft=2
+WaterDistantWave=true
+Saturation=0.7
+BrightEmissive=false
+RPSupport=true
+LensFlare=false
+Brightness=0.7
+LightmapBanding=true
+CloudQuality=2
+AOTranslucent=true

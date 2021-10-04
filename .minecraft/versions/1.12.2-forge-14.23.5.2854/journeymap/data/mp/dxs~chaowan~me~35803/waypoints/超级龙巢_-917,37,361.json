@@ -1,0 +1,18 @@
+{
+  "id": "超级龙巢_-917,37,361",
+  "name": "超级龙巢",
+  "icon": "waypoint-normal.png",
+  "x": -917,
+  "y": 37,
+  "z": 361,
+  "r": 30,
+  "g": 111,
+  "b": 184,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    7
+  ],
+  "persistent": true
+}

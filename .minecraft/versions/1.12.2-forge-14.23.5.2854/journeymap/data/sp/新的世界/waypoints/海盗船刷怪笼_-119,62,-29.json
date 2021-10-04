@@ -1,0 +1,18 @@
+{
+  "id": "海盗船刷怪笼_-119,62,-29",
+  "name": "海盗船刷怪笼",
+  "icon": "waypoint-normal.png",
+  "x": -119,
+  "y": 62,
+  "z": -29,
+  "r": 234,
+  "g": 243,
+  "b": 20,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

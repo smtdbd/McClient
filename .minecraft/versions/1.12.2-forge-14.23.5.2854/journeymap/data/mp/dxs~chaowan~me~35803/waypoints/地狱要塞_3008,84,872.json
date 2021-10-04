@@ -1,0 +1,18 @@
+{
+  "id": "地狱要塞_3008,84,872",
+  "name": "地狱要塞",
+  "icon": "waypoint-normal.png",
+  "x": 3008,
+  "y": 84,
+  "z": 872,
+  "r": 15,
+  "g": 1,
+  "b": 100,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

@@ -1,0 +1,162 @@
+[0620/214900:INFO:LauncherAppBrowser.cpp(73)] Work dir is C:\Users\Administrator\AppData\Roaming\.minecraft
+
+[0620/214900:INFO:ClientHandler.cpp(280)] Creating launcher window.
+
+[0620/214900:INFO:LauncherAppRenderer.cpp(115)] Javascript bridge extended.
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Preferences / startup: Read preferences
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] System language is zh-cn
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Loading fallback language en-us...
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Loading main language 'zh-cn'
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configurations: Loading profiles
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration e5ed62de9ce7482a591ee30f696c2016: Thu Jan 01 1970 08:00:00 GMT+0800 (中国标准时间) < 1970-01-01T00:00:00.001Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration 1198d61294b345afa83cda6f0b0e0de4: Thu Jan 01 1970 08:00:00 GMT+0800 (中国标准时间) < 1970-01-01T00:00:00.000Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration 5f4832112c371ac0dfeef5663179b26c: Thu Jan 01 1970 08:00:00 GMT+0800 (中国标准时间) < 2019-06-07T01:14:55.240Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration forge: Fri Jun 07 2019 09:14:55 GMT+0800 (中国标准时间) < 2019-05-21T06:58:25.177Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration 92990cf9145e7c8af6bf2ea2d5d9d048: Fri Jun 07 2019 09:14:55 GMT+0800 (中国标准时间) < 2019-05-21T12:22:17.797Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration 679ddc4774a273d50f5304aba95f0833: Fri Jun 07 2019 09:14:55 GMT+0800 (中国标准时间) < 2019-05-21T10:15:36.494Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration 3e8e54c4bd9d4d3ed7755f957cfd22c4: Fri Jun 07 2019 09:14:55 GMT+0800 (中国标准时间) < 2019-05-21T03:24:29.268Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration 9b135f426881d3ac72b8fa7e87602141: Fri Jun 07 2019 09:14:55 GMT+0800 (中国标准时间) < 2019-06-20T13:36:11.964Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration OptiFine: Thu Jun 20 2019 21:36:11 GMT+0800 (中国标准时间) < 2019-06-07T01:23:47.848Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configuration 1.12-ShadersMod: Thu Jun 20 2019 21:36:11 GMT+0800 (中国标准时间) < 2019-06-07T01:37:07.215Z
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Configurations: Loading settings
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Session: Read authDB
+
+[0620/214900:INFO:LocalVersionProvider.cpp(85)] Looking for installed versions in C:\Users\Administrator\AppData\Roaming\.minecraft\versions
+
+[0620/214900:ERROR:LocalVersionProvider.cpp(140)] Version 1.12.2 forge doesn't have a json file.
+
+[0620/214900:ERROR:LocalVersionProvider.cpp(145)] Found an unexpected file 1.12.2-forge1.12.2-14.23.5.2838.zip
+
+[0620/214900:ERROR:LocalVersionProvider.cpp(145)] Found an unexpected file 1.12.2-forge1.12.2-14.23.5.2838.zip.baiduyun.uploading.cfg
+
+[0620/214900:ERROR:LocalVersionProvider.cpp(140)] Version  doesn't have a json file.
+
+[0620/214900:INFO:ClientHandler.cpp(1049)] Updating server status
+
+[0620/214900:INFO:ClientHandler.cpp(930)] Checking for launcher updates.
+
+[0620/214900:INFO:GameController.cpp(243)] Reinstancing game callbacks...
+
+[0620/214901:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/214901:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/214901:INFO:ClientHandler.cpp(1049)] GameStarter: Previous instance(s) found
+
+[0620/214902:INFO:ClientHandler.cpp(954)] Got piston manifest for launcher updates.
+
+[0620/214902:INFO:ClientHandler.cpp(979)] Selecting release for launcher updates.
+
+[0620/214902:INFO:ClientHandler.cpp(984)] Got release: 2.1.3674 ours is: 2.1.3674
+
+[0620/214902:INFO:ClientHandler.cpp(904)] Sending responses to 1 callbacks, update available: 0
+
+[0620/214902:INFO:ClientHandler.cpp(1049)] [Status] A launcher update is not available...
+
+[0620/214902:INFO:ClientHandler.cpp(1049)] Session: Validated token
+
+[0620/214902:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/214902:INFO:ClientHandler.cpp(1049)] Session: Wrote authDB
+
+[0620/214902:INFO:ClientHandler.cpp(1049)] Changing view to: main.news
+
+[0620/214903:INFO:ClientHandler.cpp(1049)] Unable to find YouTube iframe library on this page.
+
+[0620/214905:INFO:ClientHandler.cpp(1049)] Changing view to: main.settings
+
+[0620/214908:INFO:ClientHandler.cpp(1049)] Changing view to: main.launch
+
+[0620/215400:INFO:ClientHandler.cpp(1049)] Updating server status
+
+[0620/215400:INFO:ClientHandler.cpp(930)] Checking for launcher updates.
+
+[0620/215400:INFO:ClientHandler.cpp(954)] Got piston manifest for launcher updates.
+
+[0620/215400:INFO:ClientHandler.cpp(979)] Selecting release for launcher updates.
+
+[0620/215400:INFO:ClientHandler.cpp(984)] Got release: 2.1.3674 ours is: 2.1.3674
+
+[0620/215400:INFO:ClientHandler.cpp(904)] Sending responses to 1 callbacks, update available: 0
+
+[0620/215400:INFO:ClientHandler.cpp(1049)] [Status] A launcher update is not available...
+
+[0620/215419:INFO:LauncherMain.cpp(18)] Reopen event triggered!
+
+[0620/215419:INFO:LauncherMain.cpp(22)] Asking to focus browser window.
+
+[0620/215419:INFO:ClientHandler.cpp(274)] Launcher is already open!
+
+[0620/215421:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215423:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215423:INFO:ClientHandler.cpp(1049)] Session: Wrote authDB
+
+[0620/215423:INFO:ClientHandler.cpp(1049)] Changing view to: login
+
+[0620/215425:INFO:ClientHandler.cpp(1049)] Uncaught Session.getDemoAgnosticId: No account logged in
+
+[0620/215432:INFO:ClientHandler.cpp(1049)] Uncaught Session.getDemoAgnosticId: No account logged in
+
+[0620/215439:INFO:ClientHandler.cpp(1049)] Login failed
+
+[0620/215439:INFO:ClientHandler.cpp(1049)] Changing view to: login
+
+[0620/215439:INFO:ClientHandler.cpp(1049)] Uncaught Session.getDemoAgnosticId: No account logged in
+
+[0620/215445:INFO:ClientHandler.cpp(1049)] Login failed
+
+[0620/215445:INFO:ClientHandler.cpp(1049)] Changing view to: login
+
+[0620/215446:INFO:ClientHandler.cpp(1049)] Uncaught Session.getDemoAgnosticId: No account logged in
+
+[0620/215448:INFO:ClientHandler.cpp(1049)] Login failed
+
+[0620/215448:INFO:ClientHandler.cpp(1049)] Changing view to: login
+
+[0620/215453:INFO:ClientHandler.cpp(1049)] Uncaught Session.getDemoAgnosticId: No account logged in
+
+[0620/215455:INFO:ClientHandler.cpp(1049)] Login failed
+
+[0620/215455:INFO:ClientHandler.cpp(1049)] Changing view to: login
+
+[0620/215500:INFO:ClientHandler.cpp(1049)] Uncaught Session.getDemoAgnosticId: No account logged in
+
+[0620/215504:INFO:ClientHandler.cpp(1049)] Changing view to: main.news
+
+[0620/215504:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215504:INFO:ClientHandler.cpp(1049)] Session: Wrote authDB
+
+[0620/215508:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215509:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215533:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215533:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215534:INFO:ClientHandler.cpp(1049)] Preferences: Wrote preferences
+
+[0620/215535:INFO:ClientHandler.cpp(1049)] Changing view to: main.launch
+
+[0620/215643:INFO:ClientHandler.cpp(247)] Shutting down!
+

@@ -1,0 +1,219 @@
+[18:40:53] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[18:40:53] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[18:40:53] [Client thread/INFO] [?] Version: JourneyMap 1.12-5.4.9, built with Forge 14.21.1.2387
+Forge: 14.23.5.2854
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.4.9, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showBiome=true, enabled=true, showPlayerHeading=true, showVillagers=true, sizePercent=30, showLocation=true, showMobs=true, showPets=true, showFps=false, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=圆形, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.4.9, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showBiome=true, enabled=true, showPlayerHeading=true, showVillagers=true, sizePercent=30, showLocation=true, showMobs=true, showPets=true, showFps=false, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=矩形, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.4.9, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=false, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.4.9, createDeathpoints=true, showName=true, maxDistance=8819, autoHideLabel=true, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.4.9, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.4.9, radarLateralDistance=114, maxPlayersData=20, mapSurfaceAboveCaves=true, mapBathymetry=false, mapCrops=true, maxMobsData=43, optionsManagerViewed=5.4.9, announceMod=true, colorPassive=#bbbbbb, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=4047, mappingEnabled=true, renderOverlayEventTypeName=ALL, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=42, maxAnimalsData=37, mapTransparency=true, renderDistanceSurfaceMax=7, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, radarVerticalDistance=35, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=4189, recordCacheStats=false, cacheMobsData=3000, hideSneakingEntities=true, cachePlayerData=1000, splashViewed=5.4.9, colorHostile=#ff0000, revealShape=圆形, cacheAnimalsData=3100, themeName=Victorian, alwaysMapSurface=false, colorVillager=#88e188, mapCaveLighting=true, mapPlants=false, renderDelay=2, renderOverlayPreEvent=true, colorPet=#0077ff, autoMapPoll=2000}
+[18:40:53] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.3-SNAPSHOT
+[18:40:53] [Client thread/WARN] [PluginHelper] Plugin discovery never occurred.
+java.lang.IllegalStateException: null
+	at journeymap.client.api.util.PluginHelper.initPlugins(PluginHelper.java:132) [PluginHelper.class:1.12-5.4.9]
+	at journeymap.client.JourneymapClient.initialize(JourneymapClient.java:268) [JourneymapClient.class:1.12-5.4.9]
+	at journeymap.common.Journeymap.initialize(Journeymap.java:98) [Journeymap.class:1.12-5.4.9]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[18:40:53] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[18:40:54] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[18:40:54] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[18:40:54] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[18:40:54] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[18:40:54] [Client thread/INFO] [ThemeFileHandler] Preloaded theme textures: 58
+[18:40:54] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r266.94§8ms§r
+[18:40:54] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_251]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_251]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at java.net.URL.openStream(Unknown Source) ~[?:1.8.0_251]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:128) [VersionCheck$1.class:1.12-5.4.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_251]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[18:41:25] [Client thread/ERROR] [UIManager] Unexpected error: java.nio.file.InvalidPathException: Illegal char <:> at index 85: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220\DIM0
+	at sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.io.File.toPath(Unknown Source)
+	at journeymap.client.model.RegionCoord.getDimPath(RegionCoord.java:70)
+	at journeymap.client.model.RegionCoord.<init>(RegionCoord.java:38)
+	at journeymap.client.io.RegionImageHandler.getTileDrawSteps(RegionImageHandler.java:352)
+	at journeymap.client.render.map.Tile.updateTexture(Tile.java:128)
+	at journeymap.client.render.map.Tile.create(Tile.java:70)
+	at journeymap.client.render.map.GridRenderer.findTile(GridRenderer.java:714)
+	at journeymap.client.render.map.GridRenderer.center(GridRenderer.java:242)
+	at journeymap.client.ui.minimap.MiniMap.initGridRenderer(MiniMap.java:116)
+	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:603)
+	at journeymap.client.ui.minimap.MiniMap.setMiniMapProperties(MiniMap.java:131)
+	at journeymap.client.ui.minimap.MiniMap.<init>(MiniMap.java:78)
+	at journeymap.client.ui.UIManager.<init>(UIManager.java:51)
+	at journeymap.client.ui.UIManager.<clinit>(UIManager.java:39)
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+[18:41:25] [Client thread/ERROR] [JMLogger] Unexpected error during onRenderOverlayEarly: java.lang.ExceptionInInitializerError (SUPPRESSED)
+[18:41:25] [Client thread/ERROR] [JMLogger] java.lang.ExceptionInInitializerError
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.nio.file.InvalidPathException: Illegal char <:> at index 85: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220\DIM0
+	at sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.io.File.toPath(Unknown Source)
+	at journeymap.client.model.RegionCoord.getDimPath(RegionCoord.java:70)
+	at journeymap.client.model.RegionCoord.<init>(RegionCoord.java:38)
+	at journeymap.client.io.RegionImageHandler.getTileDrawSteps(RegionImageHandler.java:352)
+	at journeymap.client.render.map.Tile.updateTexture(Tile.java:128)
+	at journeymap.client.render.map.Tile.create(Tile.java:70)
+	at journeymap.client.render.map.GridRenderer.findTile(GridRenderer.java:714)
+	at journeymap.client.render.map.GridRenderer.center(GridRenderer.java:242)
+	at journeymap.client.ui.minimap.MiniMap.initGridRenderer(MiniMap.java:116)
+	at journeymap.client.ui.minimap.MiniMap.reset(MiniMap.java:603)
+	at journeymap.client.ui.minimap.MiniMap.setMiniMapProperties(MiniMap.java:131)
+	at journeymap.client.ui.minimap.MiniMap.<init>(MiniMap.java:78)
+	at journeymap.client.ui.UIManager.<init>(UIManager.java:60)
+	at journeymap.client.ui.UIManager.<clinit>(UIManager.java:39)
+	... 16 more
+
+[18:41:26] [Client thread/ERROR] [JMLogger] Unexpected error during onRenderOverlayEarly: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager (SUPPRESSED)
+[18:41:26] [Client thread/ERROR] [JMLogger] java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+[18:41:26] [Client thread/ERROR] [JMLogger] CANNOT CREATE DATA DIRECTORY FOR WORLD: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220 (SUPPRESSED)
+[18:41:26] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
+[18:41:37] [Client thread/ERROR] [JMLogger] Unexpected error during onRenderOverlayEarly: java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager (SUPPRESSED)
+[18:41:37] [Client thread/ERROR] [JMLogger] java.lang.NoClassDefFoundError: Could not initialize class journeymap.client.ui.UIManager
+	at journeymap.client.forge.event.MiniMapOverlayHandler.onRenderOverlay(MiniMapOverlayHandler.java:101)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_509_MiniMapOverlayHandler_onRenderOverlay_RenderGameOverlayEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:907)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:119)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1420)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+[18:41:37] [Client thread/ERROR] [JMLogger] CANNOT CREATE DATA DIRECTORY FOR WORLD: H:\服务器N代目\.minecraft\versions\1.12.2-forge-14.23.5.2854\journeymap\data\mp\a.tpmc.top:26220 (SUPPRESSED)
